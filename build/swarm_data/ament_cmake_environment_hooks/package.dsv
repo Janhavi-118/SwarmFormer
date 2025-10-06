@@ -1,0 +1,4 @@
+source;share/swarm_data/local_setup.bash
+source;share/swarm_data/local_setup.dsv
+source;share/swarm_data/local_setup.sh
+source;share/swarm_data/local_setup.zsh

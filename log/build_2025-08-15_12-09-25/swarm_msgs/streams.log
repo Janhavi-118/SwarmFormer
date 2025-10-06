@@ -1,0 +1,204 @@
+[0.013s] Invoking command in '/home/janhavi/swarm_ws/build/swarm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/swarm_ws/build/swarm_msgs -- -j12 -l12
+[0.108s] [  1%] Built target swarm_msgs__cpp
+[0.155s] [  1%] Built target ament_cmake_python_copy_swarm_msgs
+[0.193s] [ 12%] Built target swarm_msgs__rosidl_typesupport_introspection_cpp
+[0.523s] running egg_info
+[0.547s] writing swarm_msgs.egg-info/PKG-INFO
+[0.548s] writing dependency_links to swarm_msgs.egg-info/dependency_links.txt
+[0.548s] writing top-level names to swarm_msgs.egg-info/top_level.txt
+[0.605s] reading manifest file 'swarm_msgs.egg-info/SOURCES.txt'
+[0.606s] writing manifest file 'swarm_msgs.egg-info/SOURCES.txt'
+[0.657s] [ 12%] Built target ament_cmake_python_build_swarm_msgs_egg
+[0.697s] [ 23%] Built target swarm_msgs__rosidl_typesupport_fastrtps_cpp
+[0.730s] [ 34%] Built target swarm_msgs__rosidl_typesupport_cpp
+[0.763s] [ 45%] Built target swarm_msgs__rosidl_generator_c
+[0.795s] [ 56%] Built target swarm_msgs__rosidl_typesupport_fastrtps_c
+[0.828s] [ 67%] Built target swarm_msgs__rosidl_typesupport_c
+[0.867s] [ 78%] Built target swarm_msgs__rosidl_typesupport_introspection_c
+[0.908s] [ 78%] Built target swarm_msgs
+[0.948s] [ 80%] Built target swarm_msgs__py
+[0.988s] [ 89%] Built target swarm_msgs__rosidl_generator_py
+[1.019s] [ 92%] Built target swarm_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.048s] [ 96%] Built target swarm_msgs__rosidl_typesupport_c__pyext
+[1.081s] [100%] Built target swarm_msgs__rosidl_typesupport_introspection_c__pyext
+[1.099s] Invoked command in '/home/janhavi/swarm_ws/build/swarm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janhavi/swarm_ws/build/swarm_msgs -- -j12 -l12
+[1.113s] Invoking command in '/home/janhavi/swarm_ws/build/swarm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/janhavi/swarm_ws/build/swarm_msgs
+[1.123s] -- Install configuration: ""
+[1.124s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/ament_index/resource_index/rosidl_interfaces/swarm_msgs
+[1.124s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs
+[1.124s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg
+[1.124s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/formation_info.h
+[1.125s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/gmm_params.h
+[1.125s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/robot_state.h
+[1.125s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/gossip.h
+[1.125s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail
+[1.125s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gossip__functions.h
+[1.126s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gmm_params__functions.h
+[1.126s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/formation_info__functions.c
+[1.126s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/robot_state__functions.h
+[1.126s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/robot_state__struct.h
+[1.126s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gmm_params__struct.h
+[1.127s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/formation_info__struct.h
+[1.127s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/formation_info__functions.h
+[1.127s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/robot_state__type_support.h
+[1.127s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/robot_state__functions.c
+[1.128s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/formation_info__type_support.h
+[1.128s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gossip__struct.h
+[1.128s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gmm_params__type_support.h
+[1.128s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gossip__functions.c
+[1.128s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gossip__type_support.h
+[1.128s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gmm_params__functions.c
+[1.129s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.129s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/environment/library_path.sh
+[1.129s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/environment/library_path.dsv
+[1.129s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_generator_c.so
+[1.129s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs
+[1.129s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg
+[1.130s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.130s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail
+[1.130s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/formation_info__rosidl_typesupport_fastrtps_c.h
+[1.130s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gmm_params__rosidl_typesupport_fastrtps_c.h
+[1.130s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gossip__rosidl_typesupport_fastrtps_c.h
+[1.131s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_c.h
+[1.131s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_typesupport_fastrtps_c.so
+[1.131s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs
+[1.131s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg
+[1.131s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/formation_info.hpp
+[1.131s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/gmm_params.hpp
+[1.132s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/gossip.hpp
+[1.132s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.132s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail
+[1.132s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/formation_info__traits.hpp
+[1.132s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/formation_info__struct.hpp
+[1.132s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/robot_state__struct.hpp
+[1.133s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/formation_info__type_support.hpp
+[1.133s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gossip__struct.hpp
+[1.133s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/robot_state__type_support.hpp
+[1.133s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gossip__builder.hpp
+[1.133s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gmm_params__type_support.hpp
+[1.133s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gossip__type_support.hpp
+[1.134s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/formation_info__builder.hpp
+[1.134s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gmm_params__struct.hpp
+[1.134s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/robot_state__builder.hpp
+[1.134s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gossip__traits.hpp
+[1.134s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gmm_params__builder.hpp
+[1.135s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gmm_params__traits.hpp
+[1.135s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/robot_state__traits.hpp
+[1.135s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/robot_state.hpp
+[1.135s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs
+[1.135s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg
+[1.136s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail
+[1.136s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/dds_fastrtps
+[1.136s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gossip__rosidl_typesupport_fastrtps_cpp.hpp
+[1.136s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/formation_info__rosidl_typesupport_fastrtps_cpp.hpp
+[1.136s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.136s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gmm_params__rosidl_typesupport_fastrtps_cpp.hpp
+[1.137s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.137s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.137s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs
+[1.137s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg
+[1.137s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.137s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail
+[1.137s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gossip__rosidl_typesupport_introspection_c.h
+[1.138s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/formation_info__rosidl_typesupport_introspection_c.h
+[1.138s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gmm_params__rosidl_typesupport_introspection_c.h
+[1.138s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gmm_params__type_support.c
+[1.138s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_c.h
+[1.138s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/robot_state__type_support.c
+[1.138s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gossip__type_support.c
+[1.139s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/formation_info__type_support.c
+[1.139s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_typesupport_introspection_c.so
+[1.139s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_typesupport_c.so
+[1.139s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs
+[1.139s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg
+[1.139s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail
+[1.139s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/formation_info__rosidl_typesupport_introspection_cpp.hpp
+[1.140s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gmm_params__type_support.cpp
+[1.140s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gossip__rosidl_typesupport_introspection_cpp.hpp
+[1.140s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gmm_params__rosidl_typesupport_introspection_cpp.hpp
+[1.140s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_cpp.hpp
+[1.140s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/gossip__type_support.cpp
+[1.140s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/formation_info__type_support.cpp
+[1.140s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/robot_state__type_support.cpp
+[1.141s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_typesupport_introspection_cpp.so
+[1.141s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_typesupport_cpp.so
+[1.141s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/environment/pythonpath.sh
+[1.141s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/environment/pythonpath.dsv
+[1.141s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs-0.0.0-py3.10.egg-info
+[1.141s] -- Installing: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.141s] -- Installing: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.142s] -- Installing: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.142s] -- Installing: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.142s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs
+[1.142s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/_swarm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.142s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/_swarm_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.142s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/libswarm_msgs__rosidl_generator_py.so
+[1.142s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/__init__.py
+[1.143s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/swarm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.143s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/_swarm_msgs_s.ep.rosidl_typesupport_c.c
+[1.143s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/swarm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.143s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/msg
+[1.143s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/msg/_gmm_params_s.c
+[1.143s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/msg/_gossip.py
+[1.143s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/msg/_gmm_params.py
+[1.144s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/msg/_formation_info.py
+[1.144s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/msg/_robot_state.py
+[1.144s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/msg/_robot_state_s.c
+[1.144s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/msg/__init__.py
+[1.144s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/msg/_formation_info_s.c
+[1.144s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/msg/_gossip_s.c
+[1.144s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/swarm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.182s] Listing '/home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs'...
+[1.183s] Listing '/home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/msg'...
+[1.189s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/swarm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.189s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/swarm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.190s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/swarm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.190s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_generator_py.so
+[1.190s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/msg/RobotState.idl
+[1.191s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/msg/GMMParams.idl
+[1.191s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/msg/Gossip.idl
+[1.191s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/msg/FormationInfo.idl
+[1.192s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/msg/RobotState.msg
+[1.192s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/msg/GMMParams.msg
+[1.192s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/msg/Gossip.msg
+[1.192s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/msg/FormationInfo.msg
+[1.192s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/ament_index/resource_index/package_run_dependencies/swarm_msgs
+[1.192s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/ament_index/resource_index/parent_prefix_path/swarm_msgs
+[1.193s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/environment/ament_prefix_path.sh
+[1.193s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/environment/ament_prefix_path.dsv
+[1.193s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/environment/path.sh
+[1.193s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/environment/path.dsv
+[1.193s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/local_setup.bash
+[1.193s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/local_setup.sh
+[1.193s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/local_setup.zsh
+[1.194s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/local_setup.dsv
+[1.194s] -- Installing: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/package.dsv
+[1.194s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/ament_index/resource_index/packages/swarm_msgs
+[1.195s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/export_swarm_msgs__rosidl_generator_cExport.cmake
+[1.195s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/export_swarm_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.195s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/export_swarm_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.196s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/export_swarm_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.197s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/export_swarm_msgs__rosidl_generator_cppExport.cmake
+[1.197s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/export_swarm_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.197s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/export_swarm_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.198s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.198s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.199s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgs__rosidl_typesupport_cExport.cmake
+[1.199s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.200s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.200s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.200s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgs__rosidl_typesupport_cppExport.cmake
+[1.201s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.201s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/export_swarm_msgs__rosidl_generator_pyExport.cmake
+[1.201s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/export_swarm_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.201s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/rosidl_cmake-extras.cmake
+[1.201s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.201s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.201s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.201s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.201s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.201s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.201s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgsConfig.cmake
+[1.201s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgsConfig-version.cmake
+[1.201s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/package.xml
+[1.202s] Invoked command in '/home/janhavi/swarm_ws/build/swarm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/janhavi/swarm_ws/build/swarm_msgs

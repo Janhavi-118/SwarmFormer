@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <world name="swarm_arena">
+    <!-- Basic lighting and ground -->
+    <include><uri>model://sun</uri></include>
+    <include><uri>model://ground_plane</uri></include>
+    
+    <!-- Physics configuration for multi-robot stability -->
+    <physics name="default_physics" default="0" type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    
+    <!-- Arena boundaries (20x20m) -->
+    <model name="arena_walls">
+      <static>true</static>
+      <link name="north_wall">
+        <pose>0 10 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry><box><size>20 0.1 1</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>20 0.1 1</size></box></geometry>
+        </visual>
+      </link>
+      <link name="south_wall">
+        <pose>0 -10 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry><box><size>20 0.1 1</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>20 0.1 1</size></box></geometry>
+        </visual>
+      </link>
+      <link name="east_wall">
+        <pose>10 0 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry><box><size>0.1 20 1</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>0.1 20 1</size></box></geometry>
+        </visual>
+      </link>
+      <link name="west_wall">
+        <pose>-10 0 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry><box><size>0.1 20 1</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>0.1 20 1</size></box></geometry>
+        </visual>
+      </link>
+    </model>
+  </world>
+</sdf>

@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from swarm_msgs/msg/GMMParams.msg
+// generated code does not contain a copyright notice
+
+
+module swarm_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Gaussian Mixture Model Parameters")
+    struct GMMParams {
+      @verbatim (language="comment", text=
+        "Flattened list of means, e.g. [x1, y1, x2, y2, ...]")
+      sequence<double> means;
+
+      @verbatim (language="comment", text=
+        "Flattened covariances, e.g. for K components: [c11, c12, c21, c22, ... repeated K times]")
+      sequence<double> covariances;
+
+      @verbatim (language="comment", text=
+        "Weights per component")
+      sequence<double> weights;
+    };
+  };
+};

@@ -1,0 +1,9 @@
+{
+  "package_name": "swarm_msgs",
+  "non_idl_tuples": [
+    "/home/janhavi/swarm_ws/src/swarm_msgs:msg/RobotState.msg",
+    "/home/janhavi/swarm_ws/src/swarm_msgs:msg/GMMParams.msg",
+    "/home/janhavi/swarm_ws/src/swarm_msgs:msg/Gossip.msg",
+    "/home/janhavi/swarm_ws/src/swarm_msgs:msg/FormationInfo.msg"
+  ]
+}

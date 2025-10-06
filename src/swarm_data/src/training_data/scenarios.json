@@ -1,0 +1,4781 @@
+[
+  {
+    "scenario_id": "scenario_000",
+    "swarm_size": 3,
+    "formation_type": "line",
+    "environment_type": "empty",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        1.5559217692879928
+      ],
+      [
+        0.5,
+        0.0,
+        4.34751306447775
+      ],
+      [
+        1.0,
+        0.0,
+        4.828392409767127
+      ]
+    ],
+    "formation_goals": [
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_001",
+    "swarm_size": 3,
+    "formation_type": "line",
+    "environment_type": "empty",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        -0.45919807400698565,
+        -1.3782961258605728,
+        5.715636976554636
+      ],
+      [
+        1.0590233648630196,
+        1.5362897124326649,
+        0.10319962083223516
+      ],
+      [
+        0.19550415248527697,
+        -0.937538057150471,
+        4.442580883882893
+      ]
+    ],
+    "formation_goals": [
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_002",
+    "swarm_size": 3,
+    "formation_type": "line",
+    "environment_type": "empty",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        1.0538134564429686,
+        1.4805336436692897,
+        1.8525071089727692
+      ],
+      [
+        -1.8647742117110169,
+        0.5318874468017736,
+        5.4134813288821375
+      ],
+      [
+        -2.252922582305894,
+        1.5050185757265142,
+        5.22449743250731
+      ]
+    ],
+    "formation_goals": [
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_003",
+    "swarm_size": 3,
+    "formation_type": "line",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        5.959474906083474
+      ],
+      [
+        0.5,
+        0.0,
+        2.274192267068612
+      ],
+      [
+        1.0,
+        0.0,
+        5.720910614673203
+      ]
+    ],
+    "formation_goals": [
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_004",
+    "swarm_size": 3,
+    "formation_type": "line",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        -1.0469416216999377,
+        0.12609474908532592,
+        2.1850346677152963
+      ],
+      [
+        0.14620147795208238,
+        0.4886088709426679,
+        5.8167683893326645
+      ],
+      [
+        1.4282491531542991,
+        -1.7363024682267536,
+        5.992135172830656
+      ]
+    ],
+    "formation_goals": [
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_005",
+    "swarm_size": 3,
+    "formation_type": "line",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        1.7653141608911813,
+        0.2322440178359133,
+        6.099400506541673
+      ],
+      [
+        -0.6442839878624524,
+        -0.9065463256511803,
+        3.6803170423927756
+      ],
+      [
+        1.9348903623386047,
+        -0.8674436001896257,
+        0.5260905013252544
+      ]
+    ],
+    "formation_goals": [
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_006",
+    "swarm_size": 3,
+    "formation_type": "line",
+    "environment_type": "house",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        0.3080343980830507
+      ],
+      [
+        0.5,
+        0.0,
+        3.117956410329349
+      ],
+      [
+        1.0,
+        0.0,
+        4.308410999103308
+      ]
+    ],
+    "formation_goals": [
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_007",
+    "swarm_size": 3,
+    "formation_type": "line",
+    "environment_type": "house",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        -0.7256202034016779,
+        0.5071985449866747,
+        6.037805638227068
+      ],
+      [
+        1.2521466726969632,
+        -0.8842416230680188,
+        2.189584288385746
+      ],
+      [
+        -1.6188808058100363,
+        1.0656339964939292,
+        2.8793417185217627
+      ]
+    ],
+    "formation_goals": [
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_008",
+    "swarm_size": 3,
+    "formation_type": "line",
+    "environment_type": "house",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        0.36215899942484153,
+        0.43354062460713116,
+        1.7737405371215371
+      ],
+      [
+        1.3180246371045277,
+        0.17339199041186282,
+        5.592545016253614
+      ],
+      [
+        2.122745675769006,
+        -0.4034005061168351,
+        4.054440362902401
+      ]
+    ],
+    "formation_goals": [
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_009",
+    "swarm_size": 3,
+    "formation_type": "circle",
+    "environment_type": "empty",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        5.283613033752219
+      ],
+      [
+        0.5,
+        0.0,
+        2.028481054321907
+      ],
+      [
+        1.0,
+        0.0,
+        1.5729952134156338
+      ]
+    ],
+    "formation_goals": [
+      [
+        3.0,
+        2.0
+      ],
+      [
+        1.5000000000000002,
+        2.866025403784439
+      ],
+      [
+        1.4999999999999996,
+        1.1339745962155616
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_010",
+    "swarm_size": 3,
+    "formation_type": "circle",
+    "environment_type": "empty",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        0.15043022666153671,
+        -0.4954732019867887,
+        2.226648701200633
+      ],
+      [
+        1.336076179046798,
+        -0.42081384709979197,
+        1.3495639864428608
+      ],
+      [
+        1.860127316522135,
+        0.6752151329880318,
+        5.211990182017802
+      ]
+    ],
+    "formation_goals": [
+      [
+        3.0,
+        2.0
+      ],
+      [
+        1.5000000000000002,
+        2.866025403784439
+      ],
+      [
+        1.4999999999999996,
+        1.1339745962155616
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_011",
+    "swarm_size": 3,
+    "formation_type": "circle",
+    "environment_type": "empty",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        -2.557080392163231,
+        0.11540433300825637,
+        4.138139299818544
+      ],
+      [
+        -2.986259935999808,
+        -2.3061239317610136,
+        3.407189699681312
+      ],
+      [
+        -2.3757781582785595,
+        0.42460416310072135,
+        2.828943619318952
+      ]
+    ],
+    "formation_goals": [
+      [
+        3.0,
+        2.0
+      ],
+      [
+        1.5000000000000002,
+        2.866025403784439
+      ],
+      [
+        1.4999999999999996,
+        1.1339745962155616
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_012",
+    "swarm_size": 3,
+    "formation_type": "circle",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        2.402196036178277
+      ],
+      [
+        0.5,
+        0.0,
+        1.3208652655270925
+      ],
+      [
+        1.0,
+        0.0,
+        6.165024630084307
+      ]
+    ],
+    "formation_goals": [
+      [
+        3.0,
+        2.0
+      ],
+      [
+        1.5000000000000002,
+        2.866025403784439
+      ],
+      [
+        1.4999999999999996,
+        1.1339745962155616
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_013",
+    "swarm_size": 3,
+    "formation_type": "circle",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        1.1910270465735193,
+        0.6535024784780563,
+        2.6207498177291635
+      ],
+      [
+        -0.5936115420702963,
+        -1.698371567914386,
+        5.953905835413503
+      ],
+      [
+        0.5107285870957834,
+        1.2420878581781039,
+        3.115447531983996
+      ]
+    ],
+    "formation_goals": [
+      [
+        3.0,
+        2.0
+      ],
+      [
+        1.5000000000000002,
+        2.866025403784439
+      ],
+      [
+        1.4999999999999996,
+        1.1339745962155616
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_014",
+    "swarm_size": 3,
+    "formation_type": "circle",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        0.5525105278495728,
+        -0.93440614731953,
+        6.241317110822301
+      ],
+      [
+        1.5611781094715251,
+        2.896764695533596,
+        6.002392434508315
+      ],
+      [
+        2.857240044572901,
+        -1.93399232128551,
+        4.489318168021571
+      ]
+    ],
+    "formation_goals": [
+      [
+        3.0,
+        2.0
+      ],
+      [
+        1.5000000000000002,
+        2.866025403784439
+      ],
+      [
+        1.4999999999999996,
+        1.1339745962155616
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_015",
+    "swarm_size": 3,
+    "formation_type": "circle",
+    "environment_type": "house",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        2.723380794227397
+      ],
+      [
+        0.5,
+        0.0,
+        5.130653933476943
+      ],
+      [
+        1.0,
+        0.0,
+        1.4447759127574493
+      ]
+    ],
+    "formation_goals": [
+      [
+        3.0,
+        2.0
+      ],
+      [
+        1.5000000000000002,
+        2.866025403784439
+      ],
+      [
+        1.4999999999999996,
+        1.1339745962155616
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_016",
+    "swarm_size": 3,
+    "formation_type": "circle",
+    "environment_type": "house",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        0.8970245505371914,
+        -0.8586728957447853,
+        5.819851255139341
+      ],
+      [
+        0.5018261751378885,
+        0.4444698442111057,
+        1.2964697320858407
+      ],
+      [
+        -0.5707188620593553,
+        1.2022046631300172,
+        2.66997660225075
+      ]
+    ],
+    "formation_goals": [
+      [
+        3.0,
+        2.0
+      ],
+      [
+        1.5000000000000002,
+        2.866025403784439
+      ],
+      [
+        1.4999999999999996,
+        1.1339745962155616
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_017",
+    "swarm_size": 3,
+    "formation_type": "circle",
+    "environment_type": "house",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        1.2079634515328603,
+        2.6876346590544538,
+        4.035609286351392
+      ],
+      [
+        1.3154829994950443,
+        -1.98493512590827,
+        1.2547597495383096
+      ],
+      [
+        -0.5430376014729914,
+        -2.1824873902428803,
+        0.6408794531303587
+      ]
+    ],
+    "formation_goals": [
+      [
+        3.0,
+        2.0
+      ],
+      [
+        1.5000000000000002,
+        2.866025403784439
+      ],
+      [
+        1.4999999999999996,
+        1.1339745962155616
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_018",
+    "swarm_size": 3,
+    "formation_type": "wedge",
+    "environment_type": "empty",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        3.6551616434474807
+      ],
+      [
+        0.5,
+        0.0,
+        2.592030080057109
+      ],
+      [
+        1.0,
+        0.0,
+        2.4945348389289785
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_019",
+    "swarm_size": 3,
+    "formation_type": "wedge",
+    "environment_type": "empty",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        1.1595148760697667,
+        1.1325936877415086,
+        4.673135799864573
+      ],
+      [
+        0.2198579775827949,
+        -1.1658674242230909,
+        2.3801275859839635
+      ],
+      [
+        -0.40211431813287923,
+        1.5741332607634395,
+        0.44864140905426797
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_020",
+    "swarm_size": 3,
+    "formation_type": "wedge",
+    "environment_type": "empty",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        -0.281952822965033,
+        -0.8296562297016661,
+        0.5474978357268314
+      ],
+      [
+        -0.5522768319664455,
+        2.271525720804073,
+        1.6701884535204432
+      ],
+      [
+        0.9445759039529031,
+        0.850760318434383,
+        6.044125659121118
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_021",
+    "swarm_size": 3,
+    "formation_type": "wedge",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        4.981480035089001
+      ],
+      [
+        0.5,
+        0.0,
+        3.468032815001702
+      ],
+      [
+        1.0,
+        0.0,
+        3.084833420523248
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_022",
+    "swarm_size": 3,
+    "formation_type": "wedge",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        -0.9997673668919944,
+        1.3085231691341632,
+        3.6813714144866854
+      ],
+      [
+        0.9662818653913847,
+        1.7302750439983043,
+        5.863857592861716
+      ],
+      [
+        -0.363070634975053,
+        1.6082674805252406,
+        3.712519678754385
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_023",
+    "swarm_size": 3,
+    "formation_type": "wedge",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        2.2058033786850384,
+        -0.6118166554628184,
+        5.487957160277438
+      ],
+      [
+        -2.260037619231461,
+        2.72342644531055,
+        3.7901840770927806
+      ],
+      [
+        2.7604324556166535,
+        2.1524921917503983,
+        0.9994101030017671
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_024",
+    "swarm_size": 3,
+    "formation_type": "wedge",
+    "environment_type": "house",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        0.3085850751924938
+      ],
+      [
+        0.5,
+        0.0,
+        6.156793154234202
+      ],
+      [
+        1.0,
+        0.0,
+        3.676240192654146
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_025",
+    "swarm_size": 3,
+    "formation_type": "wedge",
+    "environment_type": "house",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        1.0110244418825878,
+        -0.47121370830571685,
+        5.960489895329211
+      ],
+      [
+        -1.8335150876691242,
+        0.648020052915959,
+        3.4657504151359673
+      ],
+      [
+        0.707564991443141,
+        -0.22825958806769853,
+        3.84173019646091
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_026",
+    "swarm_size": 3,
+    "formation_type": "wedge",
+    "environment_type": "house",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        -0.6273286098121718,
+        2.1401778099537694,
+        4.317541959995561
+      ],
+      [
+        1.4290172814834987,
+        -2.387776906939025,
+        2.352587059924822
+      ],
+      [
+        1.3660532388311353,
+        -0.8295907793058603,
+        3.792486843303779
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_027",
+    "swarm_size": 5,
+    "formation_type": "line",
+    "environment_type": "empty",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        5.0244956485926835
+      ],
+      [
+        0.5,
+        0.0,
+        4.3632222579752025
+      ],
+      [
+        1.0,
+        0.0,
+        3.4835114071570596
+      ],
+      [
+        0.0,
+        0.5,
+        5.279639724357512
+      ],
+      [
+        0.5,
+        0.5,
+        1.0617101651186223
+      ]
+    ],
+    "formation_goals": [
+      [
+        -0.5,
+        2.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ],
+      [
+        3.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_028",
+    "swarm_size": 5,
+    "formation_type": "line",
+    "environment_type": "empty",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        1.3011167435664044,
+        0.9201267691655275,
+        1.0099297477750016
+      ],
+      [
+        1.6171348610673983,
+        -0.8478603407373075,
+        3.5964846403652047
+      ],
+      [
+        1.624576389376768,
+        0.18539020501753667,
+        2.0134279557092505
+      ],
+      [
+        1.8389888309720992,
+        -1.591222904705643,
+        4.958139764178451
+      ],
+      [
+        1.5883852359900401,
+        -0.5362094639784254,
+        5.520297597274298
+      ]
+    ],
+    "formation_goals": [
+      [
+        -0.5,
+        2.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ],
+      [
+        3.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_029",
+    "swarm_size": 5,
+    "formation_type": "line",
+    "environment_type": "empty",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        2.758683046473225,
+        0.21284588704145113,
+        5.499646461581319
+      ],
+      [
+        -1.1876055824277538,
+        -0.45610982493819474,
+        6.079800657644087
+      ],
+      [
+        -0.21382749040207205,
+        0.479971142166395,
+        2.3463103132475305
+      ],
+      [
+        -0.12080219589023855,
+        -1.3600225447743362,
+        1.374382501579619
+      ],
+      [
+        1.9279542357394188,
+        2.6252993609227886,
+        0.2752529900492921
+      ]
+    ],
+    "formation_goals": [
+      [
+        -0.5,
+        2.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ],
+      [
+        3.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_030",
+    "swarm_size": 5,
+    "formation_type": "line",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        5.937893801899511
+      ],
+      [
+        0.5,
+        0.0,
+        0.3629390329676559
+      ],
+      [
+        1.0,
+        0.0,
+        5.54592649290618
+      ],
+      [
+        0.0,
+        0.5,
+        1.8716520463720858
+      ],
+      [
+        0.5,
+        0.5,
+        2.5551469669891924
+      ]
+    ],
+    "formation_goals": [
+      [
+        -0.5,
+        2.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ],
+      [
+        3.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_031",
+    "swarm_size": 5,
+    "formation_type": "line",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        -0.5019712057013677,
+        -1.12241894141256,
+        1.4755041437890777
+      ],
+      [
+        -0.6725995896657486,
+        -0.30018910959739165,
+        2.6235056389429254
+      ],
+      [
+        -1.4214407329462007,
+        -0.41555236681913765,
+        0.8425671998481609
+      ],
+      [
+        -1.9295797293313162,
+        -0.8889745320205953,
+        5.3671186006175
+      ],
+      [
+        0.30738632988788384,
+        -1.8280477237518915,
+        2.511912909544261
+      ]
+    ],
+    "formation_goals": [
+      [
+        -0.5,
+        2.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ],
+      [
+        3.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_032",
+    "swarm_size": 5,
+    "formation_type": "line",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        0.9812148684392294,
+        1.3507919810320423,
+        2.5854822583110835
+      ],
+      [
+        -1.2431031821000158,
+        1.4564262429060886,
+        2.569198765378838
+      ],
+      [
+        2.2381153924212533,
+        2.3959644936328433,
+        0.38746766447553765
+      ],
+      [
+        -1.7316359321162622,
+        -2.168623670122914,
+        2.786284512874229
+      ],
+      [
+        1.8346061516416219,
+        -1.3433030042101426,
+        5.062636377784711
+      ]
+    ],
+    "formation_goals": [
+      [
+        -0.5,
+        2.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ],
+      [
+        3.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_033",
+    "swarm_size": 5,
+    "formation_type": "line",
+    "environment_type": "house",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        6.020026986076127
+      ],
+      [
+        0.5,
+        0.0,
+        5.088917053532883
+      ],
+      [
+        1.0,
+        0.0,
+        4.263824675710616
+      ],
+      [
+        0.0,
+        0.5,
+        0.713875732871233
+      ],
+      [
+        0.5,
+        0.5,
+        1.9119572110235095
+      ]
+    ],
+    "formation_goals": [
+      [
+        -0.5,
+        2.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ],
+      [
+        3.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_034",
+    "swarm_size": 5,
+    "formation_type": "line",
+    "environment_type": "house",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        0.830239632410541,
+        0.3063975425482459,
+        2.681562425641228
+      ],
+      [
+        1.208315107445801,
+        -1.991710638441277,
+        2.206606561005218
+      ],
+      [
+        0.7873116139356346,
+        0.4199686500758335,
+        4.984839529943562
+      ],
+      [
+        0.24814647158282543,
+        -0.804649492505765,
+        2.137826160046024
+      ],
+      [
+        -0.09318211973379009,
+        1.1172155706829545,
+        0.6965447569643948
+      ]
+    ],
+    "formation_goals": [
+      [
+        -0.5,
+        2.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ],
+      [
+        3.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_035",
+    "swarm_size": 5,
+    "formation_type": "line",
+    "environment_type": "house",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        -1.4285573399562943,
+        -1.285505883183506,
+        1.070953546356828
+      ],
+      [
+        1.3149503608660078,
+        1.659497168018075,
+        4.25605752935145
+      ],
+      [
+        2.6477358722912436,
+        1.629215968165001,
+        4.293377495522755
+      ],
+      [
+        -2.2267256502909083,
+        -1.1101721092686785,
+        2.439504245287621
+      ],
+      [
+        -0.7800007600256138,
+        1.8201543473403827,
+        4.219631254275076
+      ]
+    ],
+    "formation_goals": [
+      [
+        -0.5,
+        2.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ],
+      [
+        3.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_036",
+    "swarm_size": 5,
+    "formation_type": "circle",
+    "environment_type": "empty",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        0.8880830204822125
+      ],
+      [
+        0.5,
+        0.0,
+        2.095897449624986
+      ],
+      [
+        1.0,
+        0.0,
+        4.688148013773331
+      ],
+      [
+        0.0,
+        0.5,
+        4.156610670318292
+      ],
+      [
+        0.5,
+        0.5,
+        0.013713581645705223
+      ]
+    ],
+    "formation_goals": [
+      [
+        3.5,
+        2.0
+      ],
+      [
+        2.463525491562421,
+        3.4265847744427305
+      ],
+      [
+        0.786474508437579,
+        2.88167787843871
+      ],
+      [
+        0.7864745084375786,
+        1.1183221215612904
+      ],
+      [
+        2.4635254915624207,
+        0.5734152255572695
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_037",
+    "swarm_size": 5,
+    "formation_type": "circle",
+    "environment_type": "empty",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        0.5504462137936939,
+        0.7403450793855568,
+        6.0250329141432415
+      ],
+      [
+        -1.5552261203264233,
+        0.6518759267748004,
+        2.472805708680617
+      ],
+      [
+        1.6146661827769697,
+        -1.8327314224015114,
+        0.7043617521612149
+      ],
+      [
+        0.827747119934815,
+        -0.9453524854289239,
+        1.2168810273490585
+      ],
+      [
+        1.481150661512718,
+        -1.1433471335696335,
+        0.7072602318326496
+      ]
+    ],
+    "formation_goals": [
+      [
+        3.5,
+        2.0
+      ],
+      [
+        2.463525491562421,
+        3.4265847744427305
+      ],
+      [
+        0.786474508437579,
+        2.88167787843871
+      ],
+      [
+        0.7864745084375786,
+        1.1183221215612904
+      ],
+      [
+        2.4635254915624207,
+        0.5734152255572695
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_038",
+    "swarm_size": 5,
+    "formation_type": "circle",
+    "environment_type": "empty",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        -2.81456259519716,
+        0.5301489348356343,
+        0.05657097135341176
+      ],
+      [
+        -2.008357017001309,
+        -0.37895776491692734,
+        5.574561647345384
+      ],
+      [
+        0.8578785473406185,
+        -2.5324316965564053,
+        2.341641402331616
+      ],
+      [
+        -2.118588187439517,
+        -1.121117778847923,
+        3.4468457952087737
+      ],
+      [
+        2.7222340551954387,
+        0.34009714762269105,
+        3.368012877210718
+      ]
+    ],
+    "formation_goals": [
+      [
+        3.5,
+        2.0
+      ],
+      [
+        2.463525491562421,
+        3.4265847744427305
+      ],
+      [
+        0.786474508437579,
+        2.88167787843871
+      ],
+      [
+        0.7864745084375786,
+        1.1183221215612904
+      ],
+      [
+        2.4635254915624207,
+        0.5734152255572695
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_039",
+    "swarm_size": 5,
+    "formation_type": "circle",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        1.7083747515418295
+      ],
+      [
+        0.5,
+        0.0,
+        2.86547666285144
+      ],
+      [
+        1.0,
+        0.0,
+        5.208892038349772
+      ],
+      [
+        0.0,
+        0.5,
+        3.4634899386513442
+      ],
+      [
+        0.5,
+        0.5,
+        1.7810462214553895
+      ]
+    ],
+    "formation_goals": [
+      [
+        3.5,
+        2.0
+      ],
+      [
+        2.463525491562421,
+        3.4265847744427305
+      ],
+      [
+        0.786474508437579,
+        2.88167787843871
+      ],
+      [
+        0.7864745084375786,
+        1.1183221215612904
+      ],
+      [
+        2.4635254915624207,
+        0.5734152255572695
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_040",
+    "swarm_size": 5,
+    "formation_type": "circle",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        0.6152091566503497,
+        0.3827129427206968,
+        4.836624613854838
+      ],
+      [
+        -1.3530370972738193,
+        -1.0041276545092126,
+        4.9282480717479284
+      ],
+      [
+        -0.8592342642783111,
+        -1.3395179657874854,
+        2.1539242900739266
+      ],
+      [
+        1.0128040667987142,
+        1.158095598884648,
+        1.1064965396101862
+      ],
+      [
+        -0.6268686687385805,
+        1.7382697211108589,
+        4.37774012676816
+      ]
+    ],
+    "formation_goals": [
+      [
+        3.5,
+        2.0
+      ],
+      [
+        2.463525491562421,
+        3.4265847744427305
+      ],
+      [
+        0.786474508437579,
+        2.88167787843871
+      ],
+      [
+        0.7864745084375786,
+        1.1183221215612904
+      ],
+      [
+        2.4635254915624207,
+        0.5734152255572695
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_041",
+    "swarm_size": 5,
+    "formation_type": "circle",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        1.876320963159765,
+        0.3530144618670583,
+        0.7240370762927328
+      ],
+      [
+        -2.0109215885001133,
+        -1.4168804812797124,
+        1.3339891929767227
+      ],
+      [
+        -2.08647909689193,
+        -1.127442981331014,
+        3.3859809308944495
+      ],
+      [
+        -0.6907440399176226,
+        0.9541945953039912,
+        6.239227300416669
+      ],
+      [
+        -1.5722174509078621,
+        -2.7745569301712365,
+        3.7827906964727975
+      ]
+    ],
+    "formation_goals": [
+      [
+        3.5,
+        2.0
+      ],
+      [
+        2.463525491562421,
+        3.4265847744427305
+      ],
+      [
+        0.786474508437579,
+        2.88167787843871
+      ],
+      [
+        0.7864745084375786,
+        1.1183221215612904
+      ],
+      [
+        2.4635254915624207,
+        0.5734152255572695
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_042",
+    "swarm_size": 5,
+    "formation_type": "circle",
+    "environment_type": "house",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        0.7350374226183408
+      ],
+      [
+        0.5,
+        0.0,
+        5.52304559006734
+      ],
+      [
+        1.0,
+        0.0,
+        2.943022579718494
+      ],
+      [
+        0.0,
+        0.5,
+        4.958362172314219
+      ],
+      [
+        0.5,
+        0.5,
+        1.0635427558674766
+      ]
+    ],
+    "formation_goals": [
+      [
+        3.5,
+        2.0
+      ],
+      [
+        2.463525491562421,
+        3.4265847744427305
+      ],
+      [
+        0.786474508437579,
+        2.88167787843871
+      ],
+      [
+        0.7864745084375786,
+        1.1183221215612904
+      ],
+      [
+        2.4635254915624207,
+        0.5734152255572695
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_043",
+    "swarm_size": 5,
+    "formation_type": "circle",
+    "environment_type": "house",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        -1.7673261212202798,
+        -1.245250279386923,
+        3.0741329077953234
+      ],
+      [
+        -0.22675900069572696,
+        -0.6345602807184187,
+        3.95403192231451
+      ],
+      [
+        1.3121321850474623,
+        -1.2911528978981033,
+        0.43110889699593663
+      ],
+      [
+        -0.5824442546841992,
+        0.9838825619010225,
+        2.982579795668097
+      ],
+      [
+        -1.5175670953007994,
+        1.0931710923651585,
+        1.9538764754447806
+      ]
+    ],
+    "formation_goals": [
+      [
+        3.5,
+        2.0
+      ],
+      [
+        2.463525491562421,
+        3.4265847744427305
+      ],
+      [
+        0.786474508437579,
+        2.88167787843871
+      ],
+      [
+        0.7864745084375786,
+        1.1183221215612904
+      ],
+      [
+        2.4635254915624207,
+        0.5734152255572695
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_044",
+    "swarm_size": 5,
+    "formation_type": "circle",
+    "environment_type": "house",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        -2.465716709817721,
+        1.2629360928896904,
+        2.0383167258614745
+      ],
+      [
+        1.2211340723826059,
+        2.393959494464678,
+        2.136628567572031
+      ],
+      [
+        1.0793084137396303,
+        2.119839230103926,
+        2.476138431349265
+      ],
+      [
+        -2.9423677832279145,
+        2.7388147011803614,
+        5.758847470930337
+      ],
+      [
+        2.7184174676567796,
+        0.11524566937649361,
+        6.1200496652842205
+      ]
+    ],
+    "formation_goals": [
+      [
+        3.5,
+        2.0
+      ],
+      [
+        2.463525491562421,
+        3.4265847744427305
+      ],
+      [
+        0.786474508437579,
+        2.88167787843871
+      ],
+      [
+        0.7864745084375786,
+        1.1183221215612904
+      ],
+      [
+        2.4635254915624207,
+        0.5734152255572695
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_045",
+    "swarm_size": 5,
+    "formation_type": "wedge",
+    "environment_type": "empty",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        3.97061478340401
+      ],
+      [
+        0.5,
+        0.0,
+        3.790944805626474
+      ],
+      [
+        1.0,
+        0.0,
+        4.346028467506718
+      ],
+      [
+        0.0,
+        0.5,
+        4.648053441403177
+      ],
+      [
+        0.5,
+        0.5,
+        2.8286051141352457
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ],
+      [
+        3.3856,
+        1.2
+      ],
+      [
+        3.3856,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_046",
+    "swarm_size": 5,
+    "formation_type": "wedge",
+    "environment_type": "empty",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        -1.3426460564790421,
+        0.36974459600351706,
+        4.364723205741879
+      ],
+      [
+        -0.6021556760017548,
+        -0.828459986996096,
+        3.589721692606754
+      ],
+      [
+        -1.6699113967850994,
+        -0.12293065069871112,
+        1.9428635855212426
+      ],
+      [
+        -0.02129273749570526,
+        1.0562840969071634,
+        0.16189652433049986
+      ],
+      [
+        -0.7566035937207558,
+        -1.3876325162757324,
+        5.681652779095425
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ],
+      [
+        3.3856,
+        1.2
+      ],
+      [
+        3.3856,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_047",
+    "swarm_size": 5,
+    "formation_type": "wedge",
+    "environment_type": "empty",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        0.2848430821846213,
+        1.5143089287282079,
+        2.4142186411633557
+      ],
+      [
+        1.7561596645496724,
+        2.7102988848035414,
+        4.186859410584601
+      ],
+      [
+        0.3440366710985723,
+        2.7511216072289457,
+        4.283245151862468
+      ],
+      [
+        2.5151729634660676,
+        0.675855731504718,
+        5.172695765248888
+      ],
+      [
+        1.2890606943518037,
+        -1.3821356970483696,
+        5.085156806052806
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ],
+      [
+        3.3856,
+        1.2
+      ],
+      [
+        3.3856,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_048",
+    "swarm_size": 5,
+    "formation_type": "wedge",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        5.857082063478828
+      ],
+      [
+        0.5,
+        0.0,
+        3.4329882959588978
+      ],
+      [
+        1.0,
+        0.0,
+        1.1985926615142481
+      ],
+      [
+        0.0,
+        0.5,
+        3.4635892403475026
+      ],
+      [
+        0.5,
+        0.5,
+        1.1960074846500959
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ],
+      [
+        3.3856,
+        1.2
+      ],
+      [
+        3.3856,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_049",
+    "swarm_size": 5,
+    "formation_type": "wedge",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        1.145124989136248,
+        -1.3135198527753156,
+        5.8327427455098855
+      ],
+      [
+        -1.8630850856551153,
+        1.3353107006618736,
+        1.161565973028302
+      ],
+      [
+        -0.06604379154933016,
+        0.3642734594683765,
+        0.44135375606631005
+      ],
+      [
+        -0.9218913628957832,
+        1.3837377718454955,
+        0.3276726953921615
+      ],
+      [
+        0.5802298210425589,
+        1.736796046697891,
+        5.9617451017018785
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ],
+      [
+        3.3856,
+        1.2
+      ],
+      [
+        3.3856,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_050",
+    "swarm_size": 5,
+    "formation_type": "wedge",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        0.6267015583811872,
+        1.8123697592125056,
+        5.968797208556864
+      ],
+      [
+        -0.015982661780238328,
+        1.1378448039103368,
+        1.7064512866822432
+      ],
+      [
+        2.7614420290301194,
+        2.6608135721733985,
+        2.315075759446244
+      ],
+      [
+        1.2783892001288857,
+        1.4084244127672552,
+        5.343282711399392
+      ],
+      [
+        -0.8705254793135495,
+        2.380747358061277,
+        3.630761949254024
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ],
+      [
+        3.3856,
+        1.2
+      ],
+      [
+        3.3856,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_051",
+    "swarm_size": 5,
+    "formation_type": "wedge",
+    "environment_type": "house",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        1.0592437174313984
+      ],
+      [
+        0.5,
+        0.0,
+        2.309659083515336
+      ],
+      [
+        1.0,
+        0.0,
+        5.519242495135069
+      ],
+      [
+        0.0,
+        0.5,
+        3.2867432530846554
+      ],
+      [
+        0.5,
+        0.5,
+        0.013212690466453611
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ],
+      [
+        3.3856,
+        1.2
+      ],
+      [
+        3.3856,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_052",
+    "swarm_size": 5,
+    "formation_type": "wedge",
+    "environment_type": "house",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        -1.572194460793019,
+        0.8646564399689858,
+        2.050529382850948
+      ],
+      [
+        0.15227399339668235,
+        1.9792240252708604,
+        2.485695605255716
+      ],
+      [
+        1.2748124564661651,
+        -0.7968149251175527,
+        2.356776526171509
+      ],
+      [
+        0.21394734448592967,
+        0.09891341683273502,
+        3.3251460203991305
+      ],
+      [
+        1.5246004837105667,
+        -1.1431592011499658,
+        3.4831258325952636
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ],
+      [
+        3.3856,
+        1.2
+      ],
+      [
+        3.3856,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_053",
+    "swarm_size": 5,
+    "formation_type": "wedge",
+    "environment_type": "house",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        0.2972149537829534,
+        -0.7951119456937583,
+        1.5688775352876931
+      ],
+      [
+        -2.4760416366806055,
+        -1.8551833980870265,
+        2.8672121714695944
+      ],
+      [
+        2.2607113518341366,
+        -2.363080705537454,
+        0.7748755025228996
+      ],
+      [
+        -0.5356565658007737,
+        -1.0846202404028522,
+        2.422937721666557
+      ],
+      [
+        -0.11186608404529874,
+        1.930866872134172,
+        3.4200362766017216
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ],
+      [
+        3.3856,
+        1.2
+      ],
+      [
+        3.3856,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_054",
+    "swarm_size": 7,
+    "formation_type": "line",
+    "environment_type": "empty",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        6.273888966173157
+      ],
+      [
+        0.5,
+        0.0,
+        5.882242098535011
+      ],
+      [
+        1.0,
+        0.0,
+        1.191541131200623
+      ],
+      [
+        0.0,
+        0.5,
+        4.56561110506656
+      ],
+      [
+        0.5,
+        0.5,
+        5.109532310510406
+      ],
+      [
+        1.0,
+        0.5,
+        4.523708679796926
+      ],
+      [
+        0.0,
+        1.0,
+        2.1710468816682007
+      ]
+    ],
+    "formation_goals": [
+      [
+        -1.5,
+        2.0
+      ],
+      [
+        -0.5,
+        2.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ],
+      [
+        3.5,
+        2.0
+      ],
+      [
+        4.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_055",
+    "swarm_size": 7,
+    "formation_type": "line",
+    "environment_type": "empty",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        -0.19264107359548488,
+        0.7883432625669986,
+        0.7694488862535092
+      ],
+      [
+        0.4809469822179837,
+        0.17265138301090577,
+        1.948252625832624
+      ],
+      [
+        -1.7107770168352472,
+        0.06879441325600943,
+        4.901419140680355
+      ],
+      [
+        -1.6274060879640846,
+        0.034017365347045025,
+        0.8906603450444937
+      ],
+      [
+        -1.0364609961385742,
+        0.3766018481917395,
+        3.1355865369340186
+      ],
+      [
+        1.6987152954039186,
+        0.1578782836705539,
+        3.9062745451650707
+      ],
+      [
+        -0.4074080849448296,
+        1.9409025322759121,
+        0.10378461501430217
+      ]
+    ],
+    "formation_goals": [
+      [
+        -1.5,
+        2.0
+      ],
+      [
+        -0.5,
+        2.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ],
+      [
+        3.5,
+        2.0
+      ],
+      [
+        4.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_056",
+    "swarm_size": 7,
+    "formation_type": "line",
+    "environment_type": "empty",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        -0.6585026163488106,
+        -0.3350019490328382,
+        1.8390788895545087
+      ],
+      [
+        -0.4129582275981263,
+        2.8452691052141823,
+        6.20220352735315
+      ],
+      [
+        0.2391562437804895,
+        2.3298301068628513,
+        1.4684589408723399
+      ],
+      [
+        -1.1416058274708247,
+        -2.5754195107244215,
+        4.435874063855317
+      ],
+      [
+        1.9453721034652398,
+        0.10097101002608966,
+        1.7097768142126275
+      ],
+      [
+        1.6872962539142167,
+        0.9617377216164011,
+        3.9845615351156427
+      ],
+      [
+        -2.5756403127969913,
+        1.9139643829331154,
+        6.034035526096752
+      ]
+    ],
+    "formation_goals": [
+      [
+        -1.5,
+        2.0
+      ],
+      [
+        -0.5,
+        2.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ],
+      [
+        3.5,
+        2.0
+      ],
+      [
+        4.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_057",
+    "swarm_size": 7,
+    "formation_type": "line",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        0.5892270217249881
+      ],
+      [
+        0.5,
+        0.0,
+        3.0373198445741294
+      ],
+      [
+        1.0,
+        0.0,
+        2.758294219887146
+      ],
+      [
+        0.0,
+        0.5,
+        1.0869931848089545
+      ],
+      [
+        0.5,
+        0.5,
+        4.192391233650295
+      ],
+      [
+        1.0,
+        0.5,
+        2.032398278082263
+      ],
+      [
+        0.0,
+        1.0,
+        4.233164879124551
+      ]
+    ],
+    "formation_goals": [
+      [
+        -1.5,
+        2.0
+      ],
+      [
+        -0.5,
+        2.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ],
+      [
+        3.5,
+        2.0
+      ],
+      [
+        4.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_058",
+    "swarm_size": 7,
+    "formation_type": "line",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        -0.21543766659297914,
+        -1.485660760815418,
+        4.03666162882428
+      ],
+      [
+        0.921103526634726,
+        -0.6563835205648512,
+        0.6046798569096945
+      ],
+      [
+        0.9119671154742055,
+        0.5395162877850903,
+        0.67810248747285
+      ],
+      [
+        -0.668952941699041,
+        -0.5840503821352487,
+        3.2736166190939993
+      ],
+      [
+        0.7000144380629005,
+        -1.9269045892014316,
+        0.8018310141636962
+      ],
+      [
+        0.17027575464253486,
+        0.6595525260933259,
+        2.283257116323571
+      ],
+      [
+        0.4290002259632937,
+        0.555256554672011,
+        2.2275608826074857
+      ]
+    ],
+    "formation_goals": [
+      [
+        -1.5,
+        2.0
+      ],
+      [
+        -0.5,
+        2.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ],
+      [
+        3.5,
+        2.0
+      ],
+      [
+        4.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_059",
+    "swarm_size": 7,
+    "formation_type": "line",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        -0.3575374497597048,
+        0.8462524234045645,
+        0.2473504860943325
+      ],
+      [
+        -2.503352970169832,
+        0.39972011280713016,
+        3.1252039109743905
+      ],
+      [
+        1.3730097803276422,
+        -2.033314535372474,
+        0.2470486436772248
+      ],
+      [
+        -0.3860336514151279,
+        2.367714762148079,
+        1.7837130340660754
+      ],
+      [
+        -1.434861654662402,
+        1.4554134710925393,
+        6.054712749001606
+      ],
+      [
+        0.9959108229737295,
+        1.4974471352431635,
+        3.834792013720822
+      ],
+      [
+        -1.902310456401942,
+        2.7097183879342754,
+        3.841288156408533
+      ]
+    ],
+    "formation_goals": [
+      [
+        -1.5,
+        2.0
+      ],
+      [
+        -0.5,
+        2.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ],
+      [
+        3.5,
+        2.0
+      ],
+      [
+        4.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_060",
+    "swarm_size": 7,
+    "formation_type": "line",
+    "environment_type": "house",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        5.255372420544105
+      ],
+      [
+        0.5,
+        0.0,
+        0.13791442312469485
+      ],
+      [
+        1.0,
+        0.0,
+        0.50175239016637
+      ],
+      [
+        0.0,
+        0.5,
+        5.475743088123054
+      ],
+      [
+        0.5,
+        0.5,
+        3.437387293913413
+      ],
+      [
+        1.0,
+        0.5,
+        0.9207263296321767
+      ],
+      [
+        0.0,
+        1.0,
+        0.7254621912059094
+      ]
+    ],
+    "formation_goals": [
+      [
+        -1.5,
+        2.0
+      ],
+      [
+        -0.5,
+        2.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ],
+      [
+        3.5,
+        2.0
+      ],
+      [
+        4.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_061",
+    "swarm_size": 7,
+    "formation_type": "line",
+    "environment_type": "house",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        1.6677602030207908,
+        0.5424474854632293,
+        0.24325908719347208
+      ],
+      [
+        0.3466061765510009,
+        0.23313622271318302,
+        2.796993978582188
+      ],
+      [
+        1.5334792607624856,
+        0.1970764902197275,
+        3.1862154348305762
+      ],
+      [
+        0.041472982065030806,
+        -0.720257413097332,
+        5.138110444412964
+      ],
+      [
+        0.928850761148396,
+        -1.0082964211142182,
+        5.682892886819994
+      ],
+      [
+        -0.5636182921792554,
+        0.10036323712487638,
+        4.0340389177904585
+      ],
+      [
+        -1.3706277291026128,
+        1.173094022552101,
+        4.045897766482087
+      ]
+    ],
+    "formation_goals": [
+      [
+        -1.5,
+        2.0
+      ],
+      [
+        -0.5,
+        2.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ],
+      [
+        3.5,
+        2.0
+      ],
+      [
+        4.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_062",
+    "swarm_size": 7,
+    "formation_type": "line",
+    "environment_type": "house",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        -1.3474032025815095,
+        2.0480799570359736,
+        2.0168016408183953
+      ],
+      [
+        0.2325354949095022,
+        1.353842735534755,
+        1.8936609085259541
+      ],
+      [
+        1.4886171020938246,
+        0.7030573316305841,
+        2.405786405311512
+      ],
+      [
+        2.236049355337257,
+        1.2149901441160162,
+        0.059900760204889415
+      ],
+      [
+        -1.2913205427686598,
+        -1.14103804272233,
+        4.102447521821739
+      ],
+      [
+        -1.312934402863765,
+        -0.6231905682357981,
+        0.6931790495286069
+      ],
+      [
+        0.33457902465449196,
+        0.143016374186117,
+        1.9624168925573018
+      ]
+    ],
+    "formation_goals": [
+      [
+        -1.5,
+        2.0
+      ],
+      [
+        -0.5,
+        2.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        2.0
+      ],
+      [
+        2.5,
+        2.0
+      ],
+      [
+        3.5,
+        2.0
+      ],
+      [
+        4.5,
+        2.0
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_063",
+    "swarm_size": 7,
+    "formation_type": "circle",
+    "environment_type": "empty",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        6.113493808254715
+      ],
+      [
+        0.5,
+        0.0,
+        5.633380464009926
+      ],
+      [
+        1.0,
+        0.0,
+        0.5553852946660169
+      ],
+      [
+        0.0,
+        0.5,
+        5.239103805446543
+      ],
+      [
+        0.5,
+        0.5,
+        0.4047370831856683
+      ],
+      [
+        1.0,
+        0.5,
+        5.691942310986757
+      ],
+      [
+        0.0,
+        1.0,
+        4.15647364025111
+      ]
+    ],
+    "formation_goals": [
+      [
+        4.1,
+        2.0
+      ],
+      [
+        3.3093285839033406,
+        3.6418461131828623
+      ],
+      [
+        1.53270603869174,
+        4.04734861558183
+      ],
+      [
+        0.10796537740491985,
+        2.911155852146872
+      ],
+      [
+        0.10796537740491963,
+        1.088844147853128
+      ],
+      [
+        1.5327060386917393,
+        -0.0473486155818299
+      ],
+      [
+        3.30932858390334,
+        0.358153886817137
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_064",
+    "swarm_size": 7,
+    "formation_type": "circle",
+    "environment_type": "empty",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        -0.9062179666203272,
+        -1.038510740364555,
+        4.582456760154392
+      ],
+      [
+        1.7611309203118393,
+        1.9726324429578632,
+        4.417046954523742
+      ],
+      [
+        -0.884680932274823,
+        0.3973261986808505,
+        1.676023678802102
+      ],
+      [
+        -1.4040774023172307,
+        -0.3508244869304251,
+        2.0170497160468135
+      ],
+      [
+        -0.8578819567494516,
+        0.39785514362030217,
+        0.991098437155277
+      ],
+      [
+        -0.3063123315490346,
+        0.38294064494574354,
+        0.2822686458275051
+      ],
+      [
+        0.6886143898719834,
+        -1.2640911328512843,
+        4.128324126854562
+      ]
+    ],
+    "formation_goals": [
+      [
+        4.1,
+        2.0
+      ],
+      [
+        3.3093285839033406,
+        3.6418461131828623
+      ],
+      [
+        1.53270603869174,
+        4.04734861558183
+      ],
+      [
+        0.10796537740491985,
+        2.911155852146872
+      ],
+      [
+        0.10796537740491963,
+        1.088844147853128
+      ],
+      [
+        1.5327060386917393,
+        -0.0473486155818299
+      ],
+      [
+        3.30932858390334,
+        0.358153886817137
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_065",
+    "swarm_size": 7,
+    "formation_type": "circle",
+    "environment_type": "empty",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        -0.9814918716892467,
+        2.2038172417186503,
+        2.0924061800314733
+      ],
+      [
+        2.3014500473979966,
+        2.011583600767323,
+        0.3449814903942473
+      ],
+      [
+        2.404246143487553,
+        -2.606625489071563,
+        5.345748368239753
+      ],
+      [
+        -0.5971584369519016,
+        2.07329078788327,
+        1.207509744187287
+      ],
+      [
+        -0.8911667165006101,
+        1.024885227167398,
+        0.08881161303805371
+      ],
+      [
+        -2.849222697079518,
+        2.9306913765580003,
+        0.9458630737404938
+      ],
+      [
+        1.2750545188506184,
+        0.9711879117014361,
+        4.598781540083216
+      ]
+    ],
+    "formation_goals": [
+      [
+        4.1,
+        2.0
+      ],
+      [
+        3.3093285839033406,
+        3.6418461131828623
+      ],
+      [
+        1.53270603869174,
+        4.04734861558183
+      ],
+      [
+        0.10796537740491985,
+        2.911155852146872
+      ],
+      [
+        0.10796537740491963,
+        1.088844147853128
+      ],
+      [
+        1.5327060386917393,
+        -0.0473486155818299
+      ],
+      [
+        3.30932858390334,
+        0.358153886817137
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_066",
+    "swarm_size": 7,
+    "formation_type": "circle",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        2.357976148967453
+      ],
+      [
+        0.5,
+        0.0,
+        5.1568881760414795
+      ],
+      [
+        1.0,
+        0.0,
+        4.549950490533161
+      ],
+      [
+        0.0,
+        0.5,
+        4.920817127908095
+      ],
+      [
+        0.5,
+        0.5,
+        3.17939352868148
+      ],
+      [
+        1.0,
+        0.5,
+        3.5607416523844377
+      ],
+      [
+        0.0,
+        1.0,
+        4.964621121759755
+      ]
+    ],
+    "formation_goals": [
+      [
+        4.1,
+        2.0
+      ],
+      [
+        3.3093285839033406,
+        3.6418461131828623
+      ],
+      [
+        1.53270603869174,
+        4.04734861558183
+      ],
+      [
+        0.10796537740491985,
+        2.911155852146872
+      ],
+      [
+        0.10796537740491963,
+        1.088844147853128
+      ],
+      [
+        1.5327060386917393,
+        -0.0473486155818299
+      ],
+      [
+        3.30932858390334,
+        0.358153886817137
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_067",
+    "swarm_size": 7,
+    "formation_type": "circle",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        1.8825187881052705,
+        -0.6456676902375516,
+        0.9653009127428163
+      ],
+      [
+        1.4706838513529337,
+        0.8803060684370752,
+        2.7867782039023825
+      ],
+      [
+        -0.6895167875102834,
+        1.3741839411399703,
+        4.470363280604021
+      ],
+      [
+        1.8093440234462244,
+        -1.932830198101966,
+        1.6454557899396913
+      ],
+      [
+        1.9456379995409128,
+        1.0468370970029377,
+        2.157073372397903
+      ],
+      [
+        0.2593206941714814,
+        1.1632525616641174,
+        4.370511202273547
+      ],
+      [
+        -0.09229630177189074,
+        -0.6951635560345881,
+        1.678791790789457
+      ]
+    ],
+    "formation_goals": [
+      [
+        4.1,
+        2.0
+      ],
+      [
+        3.3093285839033406,
+        3.6418461131828623
+      ],
+      [
+        1.53270603869174,
+        4.04734861558183
+      ],
+      [
+        0.10796537740491985,
+        2.911155852146872
+      ],
+      [
+        0.10796537740491963,
+        1.088844147853128
+      ],
+      [
+        1.5327060386917393,
+        -0.0473486155818299
+      ],
+      [
+        3.30932858390334,
+        0.358153886817137
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_068",
+    "swarm_size": 7,
+    "formation_type": "circle",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        2.703895942894155,
+        0.9115753967676161,
+        1.8021158826346995
+      ],
+      [
+        1.136571455389034,
+        1.6404610045391532,
+        5.592561386263838
+      ],
+      [
+        -0.6607257351138367,
+        -0.28123371969818534,
+        0.7414145830261331
+      ],
+      [
+        -1.2334166480452584,
+        -1.6523727284752168,
+        0.2164273361195716
+      ],
+      [
+        -2.8138381599967994,
+        -2.5303670707599717,
+        3.3326033823914885
+      ],
+      [
+        2.1117893070349023,
+        1.9295919491668263,
+        5.804826824839211
+      ],
+      [
+        2.219567974042169,
+        2.311813493012556,
+        1.923493477836231
+      ]
+    ],
+    "formation_goals": [
+      [
+        4.1,
+        2.0
+      ],
+      [
+        3.3093285839033406,
+        3.6418461131828623
+      ],
+      [
+        1.53270603869174,
+        4.04734861558183
+      ],
+      [
+        0.10796537740491985,
+        2.911155852146872
+      ],
+      [
+        0.10796537740491963,
+        1.088844147853128
+      ],
+      [
+        1.5327060386917393,
+        -0.0473486155818299
+      ],
+      [
+        3.30932858390334,
+        0.358153886817137
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_069",
+    "swarm_size": 7,
+    "formation_type": "circle",
+    "environment_type": "house",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        5.433356065602453
+      ],
+      [
+        0.5,
+        0.0,
+        2.6780561449295117
+      ],
+      [
+        1.0,
+        0.0,
+        3.00388579239559
+      ],
+      [
+        0.0,
+        0.5,
+        3.89409859393573
+      ],
+      [
+        0.5,
+        0.5,
+        3.426649465142785
+      ],
+      [
+        1.0,
+        0.5,
+        1.046979762209519
+      ],
+      [
+        0.0,
+        1.0,
+        1.1052364979094735
+      ]
+    ],
+    "formation_goals": [
+      [
+        4.1,
+        2.0
+      ],
+      [
+        3.3093285839033406,
+        3.6418461131828623
+      ],
+      [
+        1.53270603869174,
+        4.04734861558183
+      ],
+      [
+        0.10796537740491985,
+        2.911155852146872
+      ],
+      [
+        0.10796537740491963,
+        1.088844147853128
+      ],
+      [
+        1.5327060386917393,
+        -0.0473486155818299
+      ],
+      [
+        3.30932858390334,
+        0.358153886817137
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_070",
+    "swarm_size": 7,
+    "formation_type": "circle",
+    "environment_type": "house",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        -1.71735766295624,
+        -1.7131246230265602,
+        5.654334924829837
+      ],
+      [
+        1.451689513630209,
+        -0.6412575269630074,
+        2.111695721069487
+      ],
+      [
+        -1.4122307411928552,
+        -1.0467240160479876,
+        0.7522352796237435
+      ],
+      [
+        -1.3142329319608423,
+        -1.012561523274543,
+        4.069810730566113
+      ],
+      [
+        0.18316704867125466,
+        0.8404863237638494,
+        5.8387586857886316
+      ],
+      [
+        0.818957944899803,
+        0.5524573785436115,
+        0.6031080014695082
+      ],
+      [
+        -0.0660636158395862,
+        1.3274767890511208,
+        4.990953896703794
+      ]
+    ],
+    "formation_goals": [
+      [
+        4.1,
+        2.0
+      ],
+      [
+        3.3093285839033406,
+        3.6418461131828623
+      ],
+      [
+        1.53270603869174,
+        4.04734861558183
+      ],
+      [
+        0.10796537740491985,
+        2.911155852146872
+      ],
+      [
+        0.10796537740491963,
+        1.088844147853128
+      ],
+      [
+        1.5327060386917393,
+        -0.0473486155818299
+      ],
+      [
+        3.30932858390334,
+        0.358153886817137
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_071",
+    "swarm_size": 7,
+    "formation_type": "circle",
+    "environment_type": "house",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        1.2433536409278148,
+        2.392714517157727,
+        3.073658269103854
+      ],
+      [
+        -1.3299179079565178,
+        1.5109097195994057,
+        5.730034863146065
+      ],
+      [
+        1.9138802801966053,
+        1.2055605413724262,
+        4.917897784254739
+      ],
+      [
+        1.677707698503431,
+        1.691288610334027,
+        0.7304853230420616
+      ],
+      [
+        -1.2207024107603914,
+        -0.8609210455764846,
+        2.5878170391816537
+      ],
+      [
+        -0.4230936847399116,
+        1.184565797272926,
+        0.44890427051510723
+      ],
+      [
+        -0.945492163796759,
+        2.3756893632374636,
+        6.016844744710829
+      ]
+    ],
+    "formation_goals": [
+      [
+        4.1,
+        2.0
+      ],
+      [
+        3.3093285839033406,
+        3.6418461131828623
+      ],
+      [
+        1.53270603869174,
+        4.04734861558183
+      ],
+      [
+        0.10796537740491985,
+        2.911155852146872
+      ],
+      [
+        0.10796537740491963,
+        1.088844147853128
+      ],
+      [
+        1.5327060386917393,
+        -0.0473486155818299
+      ],
+      [
+        3.30932858390334,
+        0.358153886817137
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_072",
+    "swarm_size": 7,
+    "formation_type": "wedge",
+    "environment_type": "empty",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        4.971494985711669
+      ],
+      [
+        0.5,
+        0.0,
+        1.068867590897403
+      ],
+      [
+        1.0,
+        0.0,
+        1.0436300189964896
+      ],
+      [
+        0.0,
+        0.5,
+        2.9411858352763884
+      ],
+      [
+        0.5,
+        0.5,
+        4.512822518800185
+      ],
+      [
+        1.0,
+        0.5,
+        3.5038890974297248
+      ],
+      [
+        0.0,
+        1.0,
+        2.310595704426594
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ],
+      [
+        3.3856,
+        1.2
+      ],
+      [
+        3.3856,
+        2.0
+      ],
+      [
+        3.3856,
+        2.8
+      ],
+      [
+        4.0784,
+        0.7999999999999998
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_073",
+    "swarm_size": 7,
+    "formation_type": "wedge",
+    "environment_type": "empty",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        1.634938371790014,
+        1.7461992824434365,
+        5.872499971357563
+      ],
+      [
+        0.9383010666736951,
+        -0.8824306310701617,
+        2.0864153365612506
+      ],
+      [
+        -0.5420746290109908,
+        0.9736981129742985,
+        4.733025620798006
+      ],
+      [
+        1.8032511707237737,
+        -1.7520753051749103,
+        1.7262380856341062
+      ],
+      [
+        -1.774464902217567,
+        0.26929271107481956,
+        0.09328303427356294
+      ],
+      [
+        1.5483168253821935,
+        0.35401932510441547,
+        3.162839406245449
+      ],
+      [
+        -1.0661382104394868,
+        -1.4535114909743831,
+        3.0456249117010814
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ],
+      [
+        3.3856,
+        1.2
+      ],
+      [
+        3.3856,
+        2.0
+      ],
+      [
+        3.3856,
+        2.8
+      ],
+      [
+        4.0784,
+        0.7999999999999998
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_074",
+    "swarm_size": 7,
+    "formation_type": "wedge",
+    "environment_type": "empty",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "empty_world.launch.py",
+    "spawn_positions": [
+      [
+        0.6451844349576144,
+        -1.9557304243441584,
+        3.8509744689174354
+      ],
+      [
+        -0.8415549433456846,
+        1.9979950698563735,
+        1.8765397029175932
+      ],
+      [
+        2.455087717678717,
+        1.3311948375502407,
+        5.697536164128173
+      ],
+      [
+        -1.1649801228660235,
+        -1.1223550346441729,
+        4.342605002158651
+      ],
+      [
+        -2.3705957097530215,
+        1.8879734741859355,
+        4.391798224703306
+      ],
+      [
+        -0.12381421074458876,
+        -0.9242861837924248,
+        4.5598961339342905
+      ],
+      [
+        -2.174824054286817,
+        -1.2214449401486565,
+        0.23493744850138037
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ],
+      [
+        3.3856,
+        1.2
+      ],
+      [
+        3.3856,
+        2.0
+      ],
+      [
+        3.3856,
+        2.8
+      ],
+      [
+        4.0784,
+        0.7999999999999998
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_075",
+    "swarm_size": 7,
+    "formation_type": "wedge",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        1.5053972778836968
+      ],
+      [
+        0.5,
+        0.0,
+        2.4213937066793867
+      ],
+      [
+        1.0,
+        0.0,
+        5.910492210639226
+      ],
+      [
+        0.0,
+        0.5,
+        1.19380392886594
+      ],
+      [
+        0.5,
+        0.5,
+        5.407409635072972
+      ],
+      [
+        1.0,
+        0.5,
+        5.407875809371787
+      ],
+      [
+        0.0,
+        1.0,
+        4.2480546635696
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ],
+      [
+        3.3856,
+        1.2
+      ],
+      [
+        3.3856,
+        2.0
+      ],
+      [
+        3.3856,
+        2.8
+      ],
+      [
+        4.0784,
+        0.7999999999999998
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_076",
+    "swarm_size": 7,
+    "formation_type": "wedge",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        -0.5295603722478992,
+        1.0492229573920833,
+        6.138463859074684
+      ],
+      [
+        -1.1900108107983502,
+        1.5049672711721112,
+        4.240070631724245
+      ],
+      [
+        -0.3658695859474195,
+        0.810390209065198,
+        4.286532403803231
+      ],
+      [
+        -1.801769828636631,
+        -0.5430778982632884,
+        4.369751825702958
+      ],
+      [
+        -0.6888349365072512,
+        0.9249710851837105,
+        5.438240071247393
+      ],
+      [
+        1.5768284622843467,
+        -1.600284319351184,
+        2.9823618516518797
+      ],
+      [
+        0.7919523463880713,
+        1.9081982921238398,
+        2.2554837178720666
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ],
+      [
+        3.3856,
+        1.2
+      ],
+      [
+        3.3856,
+        2.0
+      ],
+      [
+        3.3856,
+        2.8
+      ],
+      [
+        4.0784,
+        0.7999999999999998
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_077",
+    "swarm_size": 7,
+    "formation_type": "wedge",
+    "environment_type": "sparse_obstacles",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_world.launch.py",
+    "spawn_positions": [
+      [
+        -2.8487286481159835,
+        0.3192579652482612,
+        5.671541805333165
+      ],
+      [
+        1.0821794645737723,
+        0.02190126684478777,
+        0.57790582267278
+      ],
+      [
+        -1.9325961901593787,
+        2.929270804543938,
+        5.749002790932762
+      ],
+      [
+        2.2984573749317967,
+        -1.6768426103376328,
+        4.7270726418463305
+      ],
+      [
+        0.934569338775098,
+        -1.2243820426560619,
+        4.967433186516208
+      ],
+      [
+        -0.5388055444123712,
+        -2.1579612195034947,
+        0.7558940861397501
+      ],
+      [
+        2.5723460917139223,
+        1.370411283658581,
+        2.6393573600572915
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ],
+      [
+        3.3856,
+        1.2
+      ],
+      [
+        3.3856,
+        2.0
+      ],
+      [
+        3.3856,
+        2.8
+      ],
+      [
+        4.0784,
+        0.7999999999999998
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_078",
+    "swarm_size": 7,
+    "formation_type": "wedge",
+    "environment_type": "house",
+    "initial_spread": "tight",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        0.0,
+        0.0,
+        0.6189028396150539
+      ],
+      [
+        0.5,
+        0.0,
+        1.4694408690457124
+      ],
+      [
+        1.0,
+        0.0,
+        5.873769056208128
+      ],
+      [
+        0.0,
+        0.5,
+        5.556911072450656
+      ],
+      [
+        0.5,
+        0.5,
+        5.019507131352961
+      ],
+      [
+        1.0,
+        0.5,
+        3.808307668485166
+      ],
+      [
+        0.0,
+        1.0,
+        2.941902169881026
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ],
+      [
+        3.3856,
+        1.2
+      ],
+      [
+        3.3856,
+        2.0
+      ],
+      [
+        3.3856,
+        2.8
+      ],
+      [
+        4.0784,
+        0.7999999999999998
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_079",
+    "swarm_size": 7,
+    "formation_type": "wedge",
+    "environment_type": "house",
+    "initial_spread": "spread",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        -0.4936161786098068,
+        0.1958363111178718,
+        3.6134841120773173
+      ],
+      [
+        0.117177409874341,
+        1.3443513666125382,
+        5.300759623153191
+      ],
+      [
+        -0.13714203820804327,
+        0.5238019305112736,
+        1.6731944155558431
+      ],
+      [
+        1.2349814292565684,
+        -1.5818161881549533,
+        0.18678714801689883
+      ],
+      [
+        -0.42301833911233366,
+        1.5639043558219559,
+        2.3633872187706886
+      ],
+      [
+        1.9040460383495352,
+        0.6245077496463245,
+        4.579694102216369
+      ],
+      [
+        0.24973133603181097,
+        -1.460500633221364,
+        3.6957133344357294
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ],
+      [
+        3.3856,
+        1.2
+      ],
+      [
+        3.3856,
+        2.0
+      ],
+      [
+        3.3856,
+        2.8
+      ],
+      [
+        4.0784,
+        0.7999999999999998
+      ]
+    ]
+  },
+  {
+    "scenario_id": "scenario_080",
+    "swarm_size": 7,
+    "formation_type": "wedge",
+    "environment_type": "house",
+    "initial_spread": "random",
+    "obstacle_density": "medium",
+    "episodes_needed": 20,
+    "world_file": "turtlebot3_house.launch.py",
+    "spawn_positions": [
+      [
+        -2.153640410543316,
+        -2.8428489159300394,
+        6.152328556918789
+      ],
+      [
+        2.9383304305136395,
+        2.9907015898977374,
+        1.4299800242284963
+      ],
+      [
+        -1.6761748969912549,
+        0.17522221192740695,
+        4.091436877764151
+      ],
+      [
+        2.391940282096355,
+        1.1348799396318396,
+        6.006425320410426
+      ],
+      [
+        1.4249842589149573,
+        -1.7038350162604081,
+        1.6943526033204552
+      ],
+      [
+        0.3821294374907116,
+        -1.9173975596237243,
+        5.111680512566624
+      ],
+      [
+        -0.38016247480767706,
+        -0.9339386996790413,
+        1.3076724499150953
+      ]
+    ],
+    "formation_goals": [
+      [
+        2.0,
+        2.0
+      ],
+      [
+        2.6928,
+        1.6
+      ],
+      [
+        2.6928,
+        2.4
+      ],
+      [
+        3.3856,
+        1.2
+      ],
+      [
+        3.3856,
+        2.0
+      ],
+      [
+        3.3856,
+        2.8
+      ],
+      [
+        4.0784,
+        0.7999999999999998
+      ]
+    ]
+  }
+]

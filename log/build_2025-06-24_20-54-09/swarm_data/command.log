@@ -1,0 +1,6 @@
+Invoking command in '/home/janhavi/swarm_ws/build/swarm_data': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/janhavi/swarm_ws/src/swarm_data -DCMAKE_INSTALL_PREFIX=/home/janhavi/swarm_ws/install/swarm_data
+Invoked command in '/home/janhavi/swarm_ws/build/swarm_data' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/janhavi/swarm_ws/src/swarm_data -DCMAKE_INSTALL_PREFIX=/home/janhavi/swarm_ws/install/swarm_data
+Invoking command in '/home/janhavi/swarm_ws/build/swarm_data': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/janhavi/swarm_ws/build/swarm_data -- -j12 -l12
+Invoked command in '/home/janhavi/swarm_ws/build/swarm_data' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/janhavi/swarm_ws/build/swarm_data -- -j12 -l12
+Invoking command in '/home/janhavi/swarm_ws/build/swarm_data': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/janhavi/swarm_ws/build/swarm_data
+Invoked command in '/home/janhavi/swarm_ws/build/swarm_data' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/janhavi/swarm_ws/build/swarm_data

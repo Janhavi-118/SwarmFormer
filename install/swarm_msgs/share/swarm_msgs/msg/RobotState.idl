@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from swarm_msgs/msg/RobotState.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module swarm_msgs {
+  module msg {
+    typedef double double__3[3];
+    struct RobotState {
+      string robot_id;
+
+      builtin_interfaces::msg::Time timestamp;
+
+      @verbatim (language="comment", text=
+        "x, y, theta")
+      double__3 position;
+
+      @verbatim (language="comment", text=
+        "vx, vy, angular_z")
+      double__3 velocity;
+
+      sequence<string> neighbors;
+
+      int32 local_obstacle_count;
+
+      double battery_level;
+
+      string task_status;
+
+      sequence<string> error_flags;
+
+      int32 heartbeat_count;
+    };
+  };
+};

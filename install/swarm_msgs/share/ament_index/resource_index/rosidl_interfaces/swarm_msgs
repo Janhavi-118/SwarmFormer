@@ -1,0 +1,8 @@
+msg/FormationInfo.idl
+msg/FormationInfo.msg
+msg/GMMParams.idl
+msg/GMMParams.msg
+msg/Gossip.idl
+msg/Gossip.msg
+msg/RobotState.idl
+msg/RobotState.msg

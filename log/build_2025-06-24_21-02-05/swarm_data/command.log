@@ -1,0 +1,2 @@
+Invoking command in '/home/janhavi/swarm_ws/build/swarm_data': /usr/bin/cmake --build /home/janhavi/swarm_ws/build/swarm_data -- -j12 -l12
+Invoked command in '/home/janhavi/swarm_ws/build/swarm_data' returned '2': /usr/bin/cmake --build /home/janhavi/swarm_ws/build/swarm_data -- -j12 -l12

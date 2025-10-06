@@ -1,0 +1,36 @@
+[0.006s] Invoking command in '/home/janhavi/swarm_ws/build/swarm_data': CMAKE_PREFIX_PATH=/home/janhavi/swarm_ws/install/swarm_msgs:/home/janhavi/swarm_ws/install/swarm_data:/opt/ros/humble LD_LIBRARY_PATH=/home/janhavi/swarm_ws/install/swarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/janhavi/swarm_ws/build/swarm_data -- -j12 -l12
+[0.033s] Invoked command in '/home/janhavi/swarm_ws/build/swarm_data' returned '0': CMAKE_PREFIX_PATH=/home/janhavi/swarm_ws/install/swarm_msgs:/home/janhavi/swarm_ws/install/swarm_data:/opt/ros/humble LD_LIBRARY_PATH=/home/janhavi/swarm_ws/install/swarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/janhavi/swarm_ws/build/swarm_data -- -j12 -l12
+[0.034s] Invoking command in '/home/janhavi/swarm_ws/build/swarm_data': CMAKE_PREFIX_PATH=/home/janhavi/swarm_ws/install/swarm_msgs:/home/janhavi/swarm_ws/install/swarm_data:/opt/ros/humble LD_LIBRARY_PATH=/home/janhavi/swarm_ws/install/swarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/janhavi/swarm_ws/build/swarm_data
+[0.038s] -- Install configuration: ""
+[0.038s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/lib/swarm_data/robot_spawner.py
+[0.038s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/lib/swarm_data/obstacle_spawner.py
+[0.038s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/lib/swarm_data/autopilot.py
+[0.038s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/lib/swarm_data/dataset_create.py
+[0.038s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/lib/swarm_data/swarm_transformer.py
+[0.038s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/lib/swarm_data/gossip_manager.py
+[0.038s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/lib/swarm_data/formation_command.py
+[0.038s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/lib/swarm_data/expert_controller.py
+[0.038s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/launch
+[0.038s] -- Installing: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/launch/formation_goal_launch.launch.py
+[0.038s] -- Installing: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/launch/robot_spawn_launch.launch.py
+[0.038s] -- Installing: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/launch/movement_launch.launch.py
+[0.039s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/launch/obstacle_spawn_launch.launch.py
+[0.039s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/launch/swarm_launch.launch.py
+[0.039s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/worlds
+[0.039s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/worlds/swarm.world
+[0.039s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/ament_index/resource_index/package_run_dependencies/swarm_data
+[0.039s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/ament_index/resource_index/parent_prefix_path/swarm_data
+[0.040s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/environment/ament_prefix_path.sh
+[0.040s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/environment/ament_prefix_path.dsv
+[0.040s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/environment/path.sh
+[0.040s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/environment/path.dsv
+[0.040s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/local_setup.bash
+[0.040s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/local_setup.sh
+[0.040s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/local_setup.zsh
+[0.040s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/local_setup.dsv
+[0.040s] -- Installing: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/package.dsv
+[0.040s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/ament_index/resource_index/packages/swarm_data
+[0.040s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/cmake/swarm_dataConfig.cmake
+[0.041s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/cmake/swarm_dataConfig-version.cmake
+[0.041s] -- Up-to-date: /home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/package.xml
+[0.041s] Invoked command in '/home/janhavi/swarm_ws/build/swarm_data' returned '0': CMAKE_PREFIX_PATH=/home/janhavi/swarm_ws/install/swarm_msgs:/home/janhavi/swarm_ws/install/swarm_data:/opt/ros/humble LD_LIBRARY_PATH=/home/janhavi/swarm_ws/install/swarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/janhavi/swarm_ws/build/swarm_data

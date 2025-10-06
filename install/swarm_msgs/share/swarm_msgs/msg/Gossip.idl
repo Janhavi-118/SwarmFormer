@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from swarm_msgs/msg/Gossip.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "swarm_msgs/msg/GMMParams.idl"
+#include "swarm_msgs/msg/RobotState.idl"
+
+module swarm_msgs {
+  module msg {
+    struct Gossip {
+      string sender;
+
+      builtin_interfaces::msg::Time timestamp;
+
+      swarm_msgs::msg::RobotState robot_state;
+
+      sequence<swarm_msgs::msg::RobotState> known_neighbors;
+
+      sequence<string> failed_robots;
+
+      swarm_msgs::msg::GMMParams gmm_params;
+
+      string message_type;
+    };
+  };
+};

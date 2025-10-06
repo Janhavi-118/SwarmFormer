@@ -1,0 +1,296 @@
+[0.056s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.056s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a4bfe9b0430>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a4bfe925d20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a4bfe925d20>>)
+[0.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.091s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/janhavi/swarm_ws'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500) by extension 'ignore_ament_install'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500) by extensions ['colcon_pkg']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500) by extension 'colcon_pkg'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500) by extensions ['colcon_meta']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500) by extension 'colcon_meta'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500) by extensions ['ros']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500) by extension 'ros'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500) by extensions ['cmake', 'python']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500) by extension 'cmake'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500) by extension 'python'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500) by extensions ['python_setup_py']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500) by extension 'python_setup_py'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500/autopilot_pause) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500/autopilot_pause) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500/autopilot_pause) by extension 'ignore_ament_install'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500/autopilot_pause) by extensions ['colcon_pkg']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500/autopilot_pause) by extension 'colcon_pkg'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500/autopilot_pause) by extensions ['colcon_meta']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500/autopilot_pause) by extension 'colcon_meta'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500/autopilot_pause) by extensions ['ros']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500/autopilot_pause) by extension 'ros'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500/autopilot_pause) by extensions ['cmake', 'python']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500/autopilot_pause) by extension 'cmake'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500/autopilot_pause) by extension 'python'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500/autopilot_pause) by extensions ['python_setup_py']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500/autopilot_pause) by extension 'python_setup_py'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe) by extension 'ignore_ament_install'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe) by extensions ['colcon_pkg']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe) by extension 'colcon_pkg'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe) by extension 'ros'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe) by extensions ['cmake', 'python']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe) by extension 'cmake'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe) by extension 'python'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe) by extensions ['python_setup_py']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe) by extension 'python_setup_py'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe/autopilot_pause) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe/autopilot_pause) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe/autopilot_pause) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe/autopilot_pause) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe/autopilot_pause) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe/autopilot_pause) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe/autopilot_pause) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe/autopilot_pause) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe/autopilot_pause) by extension 'ros'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe/autopilot_pause) by extensions ['cmake', 'python']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe/autopilot_pause) by extension 'cmake'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe/autopilot_pause) by extension 'python'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe/autopilot_pause) by extensions ['python_setup_py']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe/autopilot_pause) by extension 'python_setup_py'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2) by extension 'ros'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2) by extensions ['cmake', 'python']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2) by extension 'cmake'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2) by extension 'python'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2) by extensions ['python_setup_py']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2) by extension 'python_setup_py'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2/autopilot_pause) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2/autopilot_pause) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2/autopilot_pause) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2/autopilot_pause) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2/autopilot_pause) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2/autopilot_pause) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2/autopilot_pause) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2/autopilot_pause) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2/autopilot_pause) by extension 'ros'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2/autopilot_pause) by extensions ['cmake', 'python']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2/autopilot_pause) by extension 'cmake'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2/autopilot_pause) by extension 'python'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2/autopilot_pause) by extensions ['python_setup_py']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(dataset_001_l1500_maybe2/autopilot_pause) by extension 'python_setup_py'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_data) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_data) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_data) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_data) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_data) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_data) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_data) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_data) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_data) by extension 'ros'
+[0.103s] DEBUG:colcon.colcon_core.package_identification:Package 'src/swarm_data' with type 'ros.ament_cmake' and name 'swarm_data'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_msgs) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_msgs) by extension 'ignore_ament_install'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_msgs) by extensions ['colcon_pkg']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_msgs) by extension 'colcon_pkg'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_msgs) by extensions ['colcon_meta']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_msgs) by extension 'colcon_meta'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_msgs) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_msgs) by extension 'ros'
+[0.104s] DEBUG:colcon.colcon_core.package_identification:Package 'src/swarm_msgs' with type 'ros.ament_cmake' and name 'swarm_msgs'
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.117s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 432 installed packages in /opt/ros/humble
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'swarm_msgs' build argument 'cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'swarm_msgs' build argument 'cmake_target' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'swarm_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'swarm_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'swarm_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'swarm_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'swarm_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'swarm_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'swarm_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.150s] DEBUG:colcon.colcon_core.verb:Building package 'swarm_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/janhavi/swarm_ws/build/swarm_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/janhavi/swarm_ws/install/swarm_msgs', 'merge_install': False, 'path': '/home/janhavi/swarm_ws/src/swarm_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'swarm_data' build argument 'cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'swarm_data' build argument 'cmake_target' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'swarm_data' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'swarm_data' build argument 'cmake_clean_cache' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'swarm_data' build argument 'cmake_clean_first' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'swarm_data' build argument 'cmake_force_configure' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'swarm_data' build argument 'ament_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'swarm_data' build argument 'catkin_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'swarm_data' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.151s] DEBUG:colcon.colcon_core.verb:Building package 'swarm_data' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/janhavi/swarm_ws/build/swarm_data', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/janhavi/swarm_ws/install/swarm_data', 'merge_install': False, 'path': '/home/janhavi/swarm_ws/src/swarm_data', 'symlink_install': False, 'test_result_base': None}
+[0.151s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.152s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.152s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/janhavi/swarm_ws/src/swarm_msgs' with build type 'ament_cmake'
+[0.152s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/janhavi/swarm_ws/src/swarm_msgs'
+[0.154s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.154s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/janhavi/swarm_ws/build/swarm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/janhavi/swarm_ws/build/swarm_msgs -- -j12 -l12
+[0.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/janhavi/swarm_ws/build/swarm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/janhavi/swarm_ws/build/swarm_msgs -- -j12 -l12
+[0.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/janhavi/swarm_ws/build/swarm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/janhavi/swarm_ws/build/swarm_msgs
+[0.473s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(swarm_msgs)
+[0.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/janhavi/swarm_ws/build/swarm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/janhavi/swarm_ws/build/swarm_msgs
+[0.475s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_msgs' for CMake module files
+[0.475s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_msgs' for CMake config files
+[0.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('swarm_msgs', 'cmake_prefix_path')
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/hook/cmake_prefix_path.ps1'
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/hook/cmake_prefix_path.dsv'
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/hook/cmake_prefix_path.sh'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_msgs/lib'
+[0.477s] Level 1:colcon.colcon_core.shell:create_environment_hook('swarm_msgs', 'ld_library_path_lib')
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/hook/ld_library_path_lib.ps1'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/hook/ld_library_path_lib.dsv'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/hook/ld_library_path_lib.sh'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_msgs/bin'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_msgs/lib/pkgconfig/swarm_msgs.pc'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_msgs/lib/python3.10/site-packages'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_msgs/bin'
+[0.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/package.ps1'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/package.dsv'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/package.sh'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/package.bash'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/package.zsh'
+[0.480s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/janhavi/swarm_ws/install/swarm_msgs/share/colcon-core/packages/swarm_msgs)
+[0.480s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(swarm_msgs)
+[0.481s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_msgs' for CMake module files
+[0.481s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_msgs' for CMake config files
+[0.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('swarm_msgs', 'cmake_prefix_path')
+[0.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/hook/cmake_prefix_path.ps1'
+[0.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/hook/cmake_prefix_path.dsv'
+[0.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/hook/cmake_prefix_path.sh'
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_msgs/lib'
+[0.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('swarm_msgs', 'ld_library_path_lib')
+[0.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/hook/ld_library_path_lib.ps1'
+[0.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/hook/ld_library_path_lib.dsv'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/hook/ld_library_path_lib.sh'
+[0.483s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_msgs/bin'
+[0.483s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_msgs/lib/pkgconfig/swarm_msgs.pc'
+[0.483s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_msgs/lib/python3.10/site-packages'
+[0.483s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_msgs/bin'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/package.ps1'
+[0.484s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/package.dsv'
+[0.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/package.sh'
+[0.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/package.bash'
+[0.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/janhavi/swarm_ws/install/swarm_msgs/share/swarm_msgs/package.zsh'
+[0.485s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/janhavi/swarm_ws/install/swarm_msgs/share/colcon-core/packages/swarm_msgs)
+[0.485s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/janhavi/swarm_ws/src/swarm_data' with build type 'ament_cmake'
+[0.485s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/janhavi/swarm_ws/src/swarm_data'
+[0.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/janhavi/swarm_ws/build/swarm_data': AMENT_PREFIX_PATH=/home/janhavi/swarm_ws/install/swarm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/janhavi/swarm_ws/install/swarm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/janhavi/swarm_ws/install/swarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/janhavi/swarm_ws/build/swarm_data -- -j12 -l12
+[0.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/janhavi/swarm_ws/build/swarm_data' returned '0': AMENT_PREFIX_PATH=/home/janhavi/swarm_ws/install/swarm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/janhavi/swarm_ws/install/swarm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/janhavi/swarm_ws/install/swarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/janhavi/swarm_ws/build/swarm_data -- -j12 -l12
+[0.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/janhavi/swarm_ws/build/swarm_data': AMENT_PREFIX_PATH=/home/janhavi/swarm_ws/install/swarm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/janhavi/swarm_ws/install/swarm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/janhavi/swarm_ws/install/swarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/janhavi/swarm_ws/build/swarm_data
+[0.528s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(swarm_data)
+[0.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/janhavi/swarm_ws/build/swarm_data' returned '0': AMENT_PREFIX_PATH=/home/janhavi/swarm_ws/install/swarm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/janhavi/swarm_ws/install/swarm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/janhavi/swarm_ws/install/swarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/janhavi/swarm_ws/install/swarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/janhavi/swarm_ws/build/swarm_data
+[0.528s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_data' for CMake module files
+[0.528s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_data' for CMake config files
+[0.529s] Level 1:colcon.colcon_core.shell:create_environment_hook('swarm_data', 'cmake_prefix_path')
+[0.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/hook/cmake_prefix_path.ps1'
+[0.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/hook/cmake_prefix_path.dsv'
+[0.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/hook/cmake_prefix_path.sh'
+[0.530s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_data/lib'
+[0.530s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_data/bin'
+[0.530s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_data/lib/pkgconfig/swarm_data.pc'
+[0.530s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_data/lib/python3.10/site-packages'
+[0.530s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_data/bin'
+[0.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/package.ps1'
+[0.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/package.dsv'
+[0.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/package.sh'
+[0.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/package.bash'
+[0.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/package.zsh'
+[0.531s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/janhavi/swarm_ws/install/swarm_data/share/colcon-core/packages/swarm_data)
+[0.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(swarm_data)
+[0.531s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_data' for CMake module files
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_data' for CMake config files
+[0.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('swarm_data', 'cmake_prefix_path')
+[0.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/hook/cmake_prefix_path.ps1'
+[0.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/hook/cmake_prefix_path.dsv'
+[0.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/hook/cmake_prefix_path.sh'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_data/lib'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_data/bin'
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_data/lib/pkgconfig/swarm_data.pc'
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_data/lib/python3.10/site-packages'
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/janhavi/swarm_ws/install/swarm_data/bin'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/package.ps1'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/package.dsv'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/package.sh'
+[0.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/package.bash'
+[0.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/janhavi/swarm_ws/install/swarm_data/share/swarm_data/package.zsh'
+[0.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/janhavi/swarm_ws/install/swarm_data/share/colcon-core/packages/swarm_data)
+[0.534s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.534s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.534s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.534s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.539s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.539s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.539s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.548s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.549s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/janhavi/swarm_ws/install/local_setup.ps1'
+[0.549s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/janhavi/swarm_ws/install/_local_setup_util_ps1.py'
+[0.550s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/janhavi/swarm_ws/install/setup.ps1'
+[0.551s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/janhavi/swarm_ws/install/local_setup.sh'
+[0.551s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/janhavi/swarm_ws/install/_local_setup_util_sh.py'
+[0.551s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/janhavi/swarm_ws/install/setup.sh'
+[0.552s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/janhavi/swarm_ws/install/local_setup.bash'
+[0.552s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/janhavi/swarm_ws/install/setup.bash'
+[0.553s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/janhavi/swarm_ws/install/local_setup.zsh'
+[0.553s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/janhavi/swarm_ws/install/setup.zsh'

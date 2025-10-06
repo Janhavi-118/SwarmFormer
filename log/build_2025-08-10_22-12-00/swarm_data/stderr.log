@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/janhavi/swarm_ws/src/swarm_data/src/fast_spawner.py": No such file
+  or directory.
+
+[0m

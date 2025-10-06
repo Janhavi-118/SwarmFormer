@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "swarm_msgs__py",
+		"source" : "/home/janhavi/swarm_ws/build/swarm_msgs/swarm_msgs__py"
+	}
+}
