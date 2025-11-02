@@ -157,7 +157,7 @@ def create_summary_report(all_stats, all_issues):
     total_episodes = len(all_stats)
     total_robots = sum(stats['num_robots'] for stats in all_stats)
     
-    print(f"\nOVERALL STATISTICS:")
+    print(f"\n OVERALL STATISTICS:")
     print(f"  Total Episodes Analyzed: {total_episodes}")
     print(f"  Total Robot-Episodes: {total_robots}")
     print(f"  Average Robots per Episode: {total_robots/total_episodes:.1f}")
@@ -172,20 +172,20 @@ def create_summary_report(all_stats, all_issues):
     
     df = pd.DataFrame(robot_stats)
     
-    print(f"\nTEMPORAL STATISTICS:")
+    print(f"\n  TEMPORAL STATISTICS:")
     print(f"  Average Timesteps per Robot: {df['timesteps'].mean():.0f}")
     print(f"  Min/Max Timesteps: {df['timesteps'].min()}/{df['timesteps'].max()}")
     print(f"  Average Episode Duration: {df['time_span'].mean():.1f} seconds")
     print(f"  Total Training Time: {df['time_span'].sum()/3600:.1f} hours")
     
-    print(f"\nDATA COVERAGE:")
+    print(f"\n DATA COVERAGE:")
     print(f"  Average Scan Coverage: {df['scan_coverage'].mean():.1%}")
     print(f"  Average Gossip Coverage: {df['gossip_coverage'].mean():.1%}")
     print(f"  Min Scan Coverage: {df['scan_coverage'].min():.1%}")
     print(f"  Min Gossip Coverage: {df['gossip_coverage'].min():.1%}")
     
     # Data quality issues
-    print(f"\nDATA QUALITY ISSUES:")
+    print(f"\n DATA QUALITY ISSUES:")
     if all_issues:
         print(f"  Total Issues Found: {len(all_issues)}")
         issue_types = defaultdict(int)
@@ -202,10 +202,10 @@ def create_summary_report(all_stats, all_issues):
         for issue_type, count in issue_types.items():
             print(f"    {issue_type}: {count}")
     else:
-        print("  No critical issues found!")
+        print("   No critical issues found!")
     
     # Training readiness assessment
-    print(f"\nTRAINING READINESS ASSESSMENT:")
+    print(f"\n TRAINING READINESS ASSESSMENT:")
     
     # Check minimum requirements
     min_timesteps = df['timesteps'].min()

@@ -4,8 +4,8 @@ import rclpy
 from rclpy.node import Node
 
 from geometry_msgs.msg import Point
-from swarm_msgs.msg import FormationInfo  # Replace with your actual package name
-from std_msgs.msg import String  # If you still want JSON for legacy/debugging
+from swarm_msgs.msg import FormationInfo  
+from std_msgs.msg import String  
 
 import math
 
@@ -35,7 +35,6 @@ class FormationCommander(Node):
         # Publisher for typed FormationInfo message
         self.formation_info_pub = self.create_publisher(FormationInfo, '/formation/info', 10)
 
-        # Optionally a legacy JSON params publisher for backward compatibility or logging
         self.param_pub = self.create_publisher(String, '/formation/params', 10)
 
         # Timer to periodically publish formation info and goals
@@ -110,7 +109,6 @@ class FormationCommander(Node):
 
         self.formation_info_pub.publish(formation_msg)
 
-        # Legacy JSON params (optional)
         params_json = String()
         params_json.data = (
             f'{{"type":"{self.formation_type}",'
