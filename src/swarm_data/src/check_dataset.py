@@ -157,7 +157,7 @@ def create_summary_report(all_stats, all_issues):
     total_episodes = len(all_stats)
     total_robots = sum(stats['num_robots'] for stats in all_stats)
     
-    print(f"\n📊 OVERALL STATISTICS:")
+    print(f"\nOVERALL STATISTICS:")
     print(f"  Total Episodes Analyzed: {total_episodes}")
     print(f"  Total Robot-Episodes: {total_robots}")
     print(f"  Average Robots per Episode: {total_robots/total_episodes:.1f}")
@@ -172,20 +172,20 @@ def create_summary_report(all_stats, all_issues):
     
     df = pd.DataFrame(robot_stats)
     
-    print(f"\n⏱️  TEMPORAL STATISTICS:")
+    print(f"\nTEMPORAL STATISTICS:")
     print(f"  Average Timesteps per Robot: {df['timesteps'].mean():.0f}")
     print(f"  Min/Max Timesteps: {df['timesteps'].min()}/{df['timesteps'].max()}")
     print(f"  Average Episode Duration: {df['time_span'].mean():.1f} seconds")
     print(f"  Total Training Time: {df['time_span'].sum()/3600:.1f} hours")
     
-    print(f"\n📡 DATA COVERAGE:")
+    print(f"\nDATA COVERAGE:")
     print(f"  Average Scan Coverage: {df['scan_coverage'].mean():.1%}")
     print(f"  Average Gossip Coverage: {df['gossip_coverage'].mean():.1%}")
     print(f"  Min Scan Coverage: {df['scan_coverage'].min():.1%}")
     print(f"  Min Gossip Coverage: {df['gossip_coverage'].min():.1%}")
     
     # Data quality issues
-    print(f"\n🚨 DATA QUALITY ISSUES:")
+    print(f"\nDATA QUALITY ISSUES:")
     if all_issues:
         print(f"  Total Issues Found: {len(all_issues)}")
         issue_types = defaultdict(int)
@@ -202,10 +202,10 @@ def create_summary_report(all_stats, all_issues):
         for issue_type, count in issue_types.items():
             print(f"    {issue_type}: {count}")
     else:
-        print("  ✅ No critical issues found!")
+        print("  No critical issues found!")
     
     # Training readiness assessment
-    print(f"\n🎯 TRAINING READINESS ASSESSMENT:")
+    print(f"\nTRAINING READINESS ASSESSMENT:")
     
     # Check minimum requirements
     min_timesteps = df['timesteps'].min()
@@ -218,39 +218,39 @@ def create_summary_report(all_stats, all_issues):
     
     if min_timesteps >= 100:
         readiness_score += 25
-        print("  ✅ Sufficient timesteps per episode (min: 100)")
+        print("  Sufficient timesteps per episode (min: 100)")
     else:
         readiness_issues.append("Some episodes have very few timesteps")
     
     if avg_scan_coverage >= 0.3:  # 30% coverage
         readiness_score += 25
-        print("  ✅ Adequate scan data coverage")
+        print("  Adequate scan data coverage")
     else:
         readiness_issues.append("Low scan data coverage")
     
     if avg_gossip_coverage >= 0.5:  # 50% coverage
         readiness_score += 25
-        print("  ✅ Good gossip data coverage")
+        print("  Good gossip data coverage")
     else:
         readiness_issues.append("Low gossip data coverage")
     
     if critical_issues == 0:
         readiness_score += 25
-        print("  ✅ No critical data integrity issues")
+        print("  No critical data integrity issues")
     else:
         readiness_issues.append("Critical data integrity issues found")
     
-    print(f"\n📈 OVERALL READINESS SCORE: {readiness_score}/100")
+    print(f"\nOVERALL READINESS SCORE: {readiness_score}/100")
     
     if readiness_score >= 75:
-        print("  🎉 EXCELLENT! Dataset is ready for training!")
+        print("  EXCELLENT! Dataset is ready for training!")
     elif readiness_score >= 50:
-        print("  ⚠️  GOOD. Some minor issues but ready for training.")
+        print("  GOOD. Some minor issues but ready for training.")
     else:
-        print("  ❌ NEEDS WORK. Address issues before training.")
+        print("  NEEDS WORK. Address issues before training.")
     
     if readiness_issues:
-        print("\n🔧 RECOMMENDATIONS:")
+        print("\nRECOMMENDATIONS:")
         for issue in readiness_issues:
             print(f"    • {issue}")
     
@@ -321,7 +321,7 @@ def detailed_episode_inspection(data_dir, episode_name):
 # Main validation script
 def run_full_validation(data_dir, sample_size=20):
     """Run complete dataset validation."""
-    print("🚀 Starting Comprehensive Dataset Validation...")
+    print("Starting Comprehensive Dataset Validation...")
     
     # Run statistical analysis
     all_stats, all_issues = analyze_dataset_statistics(data_dir, sample_size)
@@ -345,9 +345,9 @@ if __name__ == "__main__":
     
     df, score, issues = run_full_validation(data_directory, sample_size=488)
     
-    print(f"\n✅ Validation complete! Readiness score: {score}/100")
+    print(f"\nValidation complete! Readiness score: {score}/100")
     
     if score >= 75:
-        print("🎉 Your data looks great! Ready to proceed with transformer architecture!")
+        print("Your data looks great! Ready to proceed with transformer architecture!")
     else:
-        print("⚠️  Some issues found. Review the report above.")
+        print("Some issues found. Review the report above.")

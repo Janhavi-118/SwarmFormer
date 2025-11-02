@@ -57,12 +57,12 @@ class DatasetCollector(Node):
     
     def run_full_collection(self):
         """Run complete dataset collection"""
-        self.get_logger().info("🚀 Starting full dataset collection...")
+        self.get_logger().info("Starting full dataset collection...")
         start_time = time.time()
         
         try:
             for scenario_idx, scenario in enumerate(self.scenario_gen.scenarios):
-                self.get_logger().info(f"\n📊 Scenario {scenario_idx + 1}/{len(self.scenario_gen.scenarios)}: {scenario.scenario_id}")
+                self.get_logger().info(f"\nScenario {scenario_idx + 1}/{len(self.scenario_gen.scenarios)}: {scenario.scenario_id}")
                 self.get_logger().info(f"   Config: {scenario.swarm_size} robots, {scenario.formation_type}, {scenario.environment_type}")
                 
                 for episode in range(scenario.episodes_needed):
@@ -86,7 +86,7 @@ class DatasetCollector(Node):
             self.cleanup_processes()
             
         total_time = time.time() - start_time
-        self.get_logger().info(f"\n✅ Collection completed!")
+        self.get_logger().info(f"\nCollection completed!")
         self.get_logger().info(f"   Completed: {self.completed_episodes}")
         self.get_logger().info(f"   Failed: {self.failed_episodes}")
         self.get_logger().info(f"   Total time: {total_time/3600:.2f} hours")
@@ -248,12 +248,7 @@ class DatasetCollector(Node):
         while time.time() - self.episode_start_time < episode_timeout:
             time.sleep(1)
             
-            # Could add early termination logic here:
-            # - Check if formation achieved
-            # - Check if robots are stuck
-            # For now, just run full timeout
-        
-        # Stop data collection
+            # Stop data collection
         stop_msg = String()
         stop_msg.data = episode_id
         self.data_stop_pub.publish(stop_msg)
@@ -306,9 +301,9 @@ class DatasetCollector(Node):
         total_collected = self.completed_episodes + self.failed_episodes
         progress_pct = (total_collected / self.total_episodes) * 100
         
-        self.get_logger().info(f"📈 Progress: {total_collected}/{self.total_episodes} ({progress_pct:.1f}%)")
-        self.get_logger().info(f"   ✅ Success: {self.completed_episodes}")
-        self.get_logger().info(f"   ❌ Failed: {self.failed_episodes}")
+        self.get_logger().info(f"Progress: {total_collected}/{self.total_episodes} ({progress_pct:.1f}%)")
+        self.get_logger().info(f"   Success: {self.completed_episodes}")
+        self.get_logger().info(f"   Failed: {self.failed_episodes}")
 
 def main():
     rclpy.init()

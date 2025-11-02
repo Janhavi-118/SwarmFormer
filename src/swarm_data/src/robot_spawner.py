@@ -96,8 +96,6 @@ class SimpleSerialRobotSpawner(Node):
                 # self.robot_queue.append(robot_ns)
         except Exception as e:
             self.get_logger().error(f'Exception during spawn of {robot_ns}: {e}')
-            # Optionally retry spawn by re-enqueueing
-            # self.robot_queue.append(robot_ns)
         finally:
             self.spawning = False
 

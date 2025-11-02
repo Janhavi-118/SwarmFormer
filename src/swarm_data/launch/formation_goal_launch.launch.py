@@ -17,9 +17,9 @@ def send_formation_goals(context, *args, **kwargs):
             with open('current_scenario.json', 'r') as f:
                 scenario = json.load(f)
             formation_goals = scenario['formation_goals']
-            print(f"📋 Using formation goals from scenario: {scenario['scenario_id']}")
+            print(f"Using formation goals from scenario: {scenario['scenario_id']}")
         except Exception as e:
-            print(f"⚠️ Error reading scenario: {e}")
+            print(f"Error reading scenario: {e}")
     
     # If no scenario or failed to read, use default goals
     if not formation_goals:
@@ -53,7 +53,7 @@ def send_formation_goals(context, *args, **kwargs):
         5.684495969843876,
         10
       ]        ]
-        print("📍 Using default line formation goals")
+        print("Using default line formation goals")
     
     # Create goal publishing processes
     actions = []

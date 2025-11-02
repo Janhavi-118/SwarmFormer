@@ -122,7 +122,7 @@ def main():
             # free memory
             del ep
         fout.write('\n]\n')
-    print(f"✅ Wrote streamed dataset to {output}")
+    print(f"Wrote streamed dataset to {output}")
 
 if __name__=='__main__':
     main()

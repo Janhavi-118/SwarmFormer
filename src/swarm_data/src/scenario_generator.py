@@ -185,4 +185,4 @@ for formation, spread, env_type, swarm_size in combo_list:
 with open("diverse_scenarios.json", "w") as f:
     json.dump(scenarios, f, indent=2)
 
-print(f"✅ Generated {len(scenarios)} scenarios (expected 480)")
+print(f"Generated {len(scenarios)} scenarios (expected 480)")
